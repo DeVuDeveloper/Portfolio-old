@@ -1,8 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+body {
+  max-width: 1440px;
+  margin: auto;
+}
 
-.showme {
-  color: #fff;
+main {
+  max-width: 1440px;
 }
 
 .inter {
@@ -21,6 +25,7 @@
   background-repeat: no-repeat;
   background-size: 600px;
   background-position: 100% 100%;
+  width: 1440px;
 }
 
 .content {
@@ -68,7 +73,6 @@
   top: 0;
   height: 90px;
   background: #3e3c3c;
-  width: 100%;
 }
 
 .pages a {
@@ -80,6 +84,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 1440px;
+  margin: auto;
 }
 
 .navi a {
@@ -95,7 +101,6 @@
   font-weight: bold;
   font-size: 20px;
   line-height: 20px;
-  margin-left: 100px;
 }
 
 .menu {
@@ -107,19 +112,17 @@
   color: #f55800;
   font-size: 72px;
   line-height: 81px;
-  margin: 24px 0;
+  margin-left: 100px;
 }
 
 .content h2 {
   padding-top: 10px;
   font-size: 30px;
-  margin-left: 30px;
   color: #fff;
 }
 
 .content p {
   color: white;
-  margin: 30px;
   padding-top: 10px;
   font-size: 20px;
 }
@@ -145,7 +148,7 @@
   position: fixed;
   background: #3e3c3c;
   list-style: none;
-  right: 0;
+  right: 228px;
   width: 200px;
   transition: 750ms;
   z-index: 1000;
@@ -161,7 +164,6 @@
 
 #sidebar li {
   text-align: center;
-  margin-left: -34px;
   width: 110px;
   height: 50px;
 }
@@ -191,4 +193,302 @@
   transition: 350ms;
 }
 
-  /* end of first section */
+
+/* end of first section */
+
+#container {
+  height: 100vh;
+  background: #E5E5E5;
+  width: 100%;
+  ;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  justify-content: start;
+  margin-top: 70px;
+}
+
+.in-row {
+  margin-right: 140px;
+}
+
+.img {
+  flex-grow: 1;
+}
+
+.title h1 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  width: 327px;
+  font-weight: 400;
+  margin: 50px 0 20px 141px;
+}
+
+.in-row h2 {
+  font-size: 40px;
+  margin-top: 20px;
+}
+
+.dash {
+  margin-left: 500px;
+  margin-top: -40px;
+}
+
+#container {
+  background: #fff;
+}
+
+#container img {
+  display: block;
+  width: 684px;
+  height: 448px;
+  margin: 24px 5px 24px 141px;
+}
+
+.about p {
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.around-p {
+  width: 448px;
+}
+
+.around-p p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #091E42;
+  text-align: justify;
+}
+
+#buttons-container {
+  display: flex;
+  position: relative;
+  margin-top: 20px;
+  margin-left: -32px;
+  margin-right: 143px;
+}
+
+.buttons {
+  position: relative;
+  background: #fff;
+  border: 1px solid #8993a4;
+  list-style-type: none;
+  height: 40px;
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 10px 12px;
+  margin-right: 9px;
+}
+
+.buttons a {
+  text-decoration: none;
+  color: #091e42;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.button {
+  width: 150px;
+  height: 48px;
+  background: #ff6b00;
+  color: #fff;
+  font-size: 17px;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  position: relative;
+  list-style-type: none;
+  padding-top: 12px;
+}
+
+.button a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+}
+
+.button:hover {
+  background: #fff;
+  border: 1px solid #ff6b00;
+}
+
+.button:hover a {
+  color: #ff6b00;
+}
+
+.buttons:active {
+  background: #ff6b00;
+}
+
+.buttons:hover {
+  border: 1px solid #e05304;
+}
+
+.buttons:active {
+  background: #ff6b00;
+}
+
+
+/* uper row */
+
+.projects-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  margin: 20px 143px 0 141px;
+}
+
+.projects {
+  width: 369px;
+  height: 435px;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background: url(img/project1.png) no-repeat;
+  background-size: cover;
+}
+
+.projects1 {
+  width: 369px;
+  height: 435px;
+  background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
+  background: url(img/project2.png) no-repeat;
+  background-size: cover;
+}
+
+.projects2 {
+  width: 369px;
+  height: 435px;
+  background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
+  background: url(img/project3.png) no-repeat;
+  background-size: cover;
+}
+
+.projects3 {
+  width: 369px;
+  height: 435px;
+  background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+  background: url(img/project4.png) no-repeat;
+  background-size: cover;
+}
+
+.fix h2 {
+  position: relative;
+  font-size: 32px;
+  margin-left: 16px;
+  color: #fff;
+}
+
+.fix {
+  display: flex;
+  flex-direction: column;
+  margin-top: 205px;
+}
+
+.fix2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 160px;
+}
+
+.fixx {
+  margin-left: 24px;
+}
+
+.fix h5 {
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  line-height: 24px;
+  margin-left: 16px;
+}
+
+.white {
+  color: #fff;
+}
+
+.framework-container {
+  display: flex;
+  padding-left: 16px;
+  margin-top: 20px;
+}
+
+.framework {
+  background: rgba(255, 255, 255, 0.24);
+  opacity: 50%;
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  height: 40px;
+  padding: 0 12px;
+  margin-right: 20px;
+}
+
+.framework a {
+  position: static;
+  height: 20px;
+  left: 12px;
+  top: 10px;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+.big-button {
+  margin-top: 380px;
+  height: 58px;
+  background: #f55800;
+}
+
+.or-button {
+  text-align: center;
+  list-style-type: none;
+  margin-left: -20px;
+}
+
+.or-button a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.03em;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.framework:hover {
+  background: rgba(255, 255, 255, 0.34);
+}
+
+.framework:active {
+  background: rgba(255, 255, 255, 0.24);
+}
+
+.big-button:hover {
+  background: #fff;
+  border: 1px solid #f55800;
+}
+.big-button:hover a {
+  color: #f55800
+}
+
+
+.big-button:active {
+  background: #e05304;
+}
+
+
+/* .buttons:hover a {
+  color: #fff;
+} */
+
+
+/* end of second section */
