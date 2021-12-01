@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.showme {
+  color: #fff;
+}
+
+.inter {
+  font-family: 'Inter', sans-serif;
+  color: #fff;
+}
+
+.creta {
+  font-family: 'Crete Round', sans-serif;
+}
+
+#wraper {
+  height: 90vh;
+  background: #1C1A19;
+  background-image: url(img/vektor1.png);
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 100% 100%;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 100px 566px auto;
+  grid-gap: 10px;
+}
+
+.toolbar {
+  position: relative;
+  top: 230px;
+}
+
+.toolbar ul {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 80px;
+}
+
+.toolbar li {
+  position: relative;
+  right: 10px;
+  margin-top: 12px;
+  height: 20px;
+}
+
+.toolbar a {
+  margin-right: 30px;
+  color: rgb(236, 228, 233);
+}
+
+.summary {
+  position: relative;
+  width: 566px;
+  top: 230px;
+}
+
+.pages {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  height: 90px;
+  background: #3e3c3c;
+  width: 100%;
+}
+
+.pages a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navi {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navi a {
+  width: 130px;
+}
+
+.navigation {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.me {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin-left: 100px;
+}
+
+.menu {
+  font-size: 35px;
+  color: blanchedalmond;
+}
+
+.content h1 {
+  color: #f55800;
+  font-size: 72px;
+  line-height: 81px;
+  margin: 24px 0;
+}
+
+.content h2 {
+  padding-top: 10px;
+  font-size: 30px;
+  margin-left: 30px;
+  color: #fff;
+}
+
+.content p {
+  color: white;
+  margin: 30px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.toolbar ul {
+  display: flex;
+  list-style: none;
+  margin-top: 10px;
+  padding-bottom: 150px;
+  height: 20px;
+}
+
+.social {
+  width: 10px;
+  margin-right: 55px;
+}
+
+#sidebar {
+  display: flex;
+  top: -100%;
+  flex-direction: column;
+  text-align: center;
+  position: fixed;
+  background: #3e3c3c;
+  list-style: none;
+  right: 0;
+  width: 200px;
+  transition: 750ms;
+  z-index: 1000;
+}
+
+.toolbar a:hover {
+  font-size: 20px;
+}
+
+.toolbar a:focus {
+  font-size: 27px;
+}
+
+#sidebar li {
+  text-align: center;
+  margin-left: -34px;
+  width: 110px;
+  height: 50px;
+}
+
+#sidebar a {
+  text-align: center;
+  text-decoration: none;
+  width: 110px;
+  height: 50px;
+  color: #fff;
+}
+
+.navi a:hover {
+  font-size: 18px;
+}
+
+.menu:hover {
+  font-size: 40px;
+}
+
+#sidebar a:hover {
+  font-size: 17px;
+}
+
+#sidebar.active {
+  top: 0;
+  transition: 350ms;
+}
