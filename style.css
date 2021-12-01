@@ -1,11 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
 
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .showme {
   color: #fff;
 }
@@ -195,3 +190,5 @@ body {
   top: 0;
   transition: 350ms;
 }
+
+  /* end of first section */
