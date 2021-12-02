@@ -600,14 +600,19 @@ main {
 
 .rec1 {
   margin-right: 10px;
+
 }
 
+
 .rec2 {
+
   margin-right: 10px;
 }
+
 
 .rec3 {
   margin-right: 10px;
+
 }
 
 .columns ul {
@@ -723,7 +728,7 @@ form ul li textarea {
   border: none;
   transition: all 0.6s ease-out;
 }
-}
+
 
 .soc {
   width: 19.96px;
