@@ -309,7 +309,7 @@ main {
   position: relative;
   list-style-type: none;
   padding-top: 12px;
-  transition: 0.6s ease-out;
+  transition: all 0.6s ease-out;
 }
 
 .button a {
@@ -452,7 +452,9 @@ main {
   margin-top: 380px;
   height: 58px;
   background: #f55800;
+  transition: all 0.6s ease-out;
 }
+
 
 .or-button {
   text-align: center;
@@ -622,6 +624,11 @@ main {
   color: #fff;
 }
 
+.get {
+  transition: all 0.6s ease-out;
+}
+
+
 .get:hover {
   background: #fff;
   border: 1px solid f55800;
@@ -714,6 +721,8 @@ form ul li textarea {
   margin-left: -14px;
   margin-top: 12px;
   border: none;
+  transition: all 0.6s ease-out;
+}
 }
 
 .soc {
