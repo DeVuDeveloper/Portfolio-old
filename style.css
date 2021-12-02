@@ -40,8 +40,6 @@ main {
   width: 1440px;
 }
 
-.pages a {}
-
 .me h1 {
   font-weight: bold;
   font-size: 20px;
@@ -222,6 +220,8 @@ main {
   flex-grow: 1;
 }
 
+
+
 .title h1 {
   font-size: 40px;
   line-height: 52px;
@@ -309,6 +309,7 @@ main {
   position: relative;
   list-style-type: none;
   padding-top: 12px;
+  transition: 0.6s ease-out;
 }
 
 .button a {
