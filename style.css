@@ -509,7 +509,14 @@ main {
   background-size: 500px;
   background-position: 100% 100%;
   margin-left: 142px;
-  border: 2px solid green;
+}
+
+.line {
+  border: 1px solid #e5e5e5;
+ 
+  margin:0 142px;
+  margin-top: 100px;
+
 }
 
 .about h1 {
@@ -548,9 +555,46 @@ main {
   color: #ff6b00;
 }
 
+
+/* end of first part */
+
 .columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   color: #fff;
   background: #000;
+  margin-top: 100px;
+}
+
+.collums h2 {
+  font-size: 32px;
+}
+
+.first-column {
+  text-align: center;
+}
+
+.first-column a {
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+}
+
+.second-column {
+  text-align: center;
+}
+
+.second-column a {
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
+}
+
+.third-column {
+  text-align: center;
+}
+
+.third-column a {
+  font-size: 17px;
+  font-family: 'Inter', sans-serif;
 }
 
 .rec1 {
@@ -558,7 +602,7 @@ main {
 }
 
 .rec2 {
-  margin-right: 15px;
+  margin-right: 10px;
 }
 
 .rec3 {
@@ -591,3 +635,5 @@ main {
 .columns li a:hover {
   font-size: 26px;
 }
+
+/* end of About section  */
