@@ -600,14 +600,29 @@ main {
 
 .rec1 {
   margin-right: 10px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.rec1:hover {
+  transform: rotate(180deg);
 }
 
 .rec2 {
   margin-right: 10px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.rec2:hover {
+  transform: rotate(180deg);
 }
 
 .rec3 {
   margin-right: 10px;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+.rec3:hover {
+  transform: rotate(180deg);
 }
 
 .columns ul {
