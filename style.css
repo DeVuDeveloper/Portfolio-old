@@ -28,6 +28,52 @@ main {
   width: 1440px;
 }
 
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  height: 90px;
+  background: #3e3c3c;
+  width: 1440px;
+}
+
+.pages a {}
+
+.me h1 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 20px;
+  margin: 26px 154px;
+}
+
+.navi {
+  display: flex;
+  margin-top: 26px;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 154px;
+}
+
+.navi li {
+  margin-right: 50px;
+  list-style: none;
+}
+
+.navi a {
+  font-weight: 600;
+  font-size: 15px;
+  text-decoration: none;
+  width: 63px;
+  height: 30px;
+}
+
+.navigation {
+  margin-right: 15px;
+}
+
 .content {
   display: grid;
   grid-template-columns: 100px 566px auto;
@@ -62,50 +108,6 @@ main {
   position: relative;
   width: 566px;
   top: 230px;
-}
-
-.pages {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  position: fixed;
-  z-index: 1000;
-  top: 0;
-  height: 90px;
-  background: #3e3c3c;
-}
-
-.pages a {
-  text-decoration: none;
-  color: #fff;
-}
-
-.navi {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 1440px;
-  margin: auto;
-}
-
-.navi a {
-  width: 130px;
-}
-
-.navigation {
-  font-weight: 600;
-  font-size: 15px;
-}
-
-.me {
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 20px;
-}
-
-.menu {
-  font-size: 35px;
-  color: blanchedalmond;
 }
 
 .content h1 {
@@ -144,22 +146,18 @@ main {
   display: flex;
   top: -100%;
   flex-direction: column;
-  text-align: center;
   position: fixed;
   background: #3e3c3c;
   list-style: none;
-  right: 228px;
+  right: 350px;
   width: 200px;
   transition: 750ms;
   z-index: 1000;
 }
 
-.toolbar a:hover {
-  font-size: 20px;
-}
-
-.toolbar a:focus {
-  font-size: 27px;
+.menu {
+  color: #fff;
+  font-size: 30px;
 }
 
 #sidebar li {
@@ -176,8 +174,17 @@ main {
   color: #fff;
 }
 
+.toolbar a:hover {
+  font-size: 20px;
+}
+
+.toolbar a:focus {
+  font-size: 27px;
+}
+
 .navi a:hover {
   font-size: 18px;
+  color: #fff;
 }
 
 .menu:hover {
@@ -197,10 +204,7 @@ main {
 /* end of first section */
 
 #container {
-  height: 100vh;
   background: #E5E5E5;
-  width: 100%;
-  ;
 }
 
 .row {
@@ -344,6 +348,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
   margin: 20px 143px 0 141px;
+  gap: 20px
 }
 
 .projects {
@@ -388,13 +393,13 @@ main {
 .fix {
   display: flex;
   flex-direction: column;
-  margin-top: 205px;
+  margin-top: 220px;
 }
 
 .fix2 {
   display: flex;
   flex-direction: column;
-  margin-top: 160px;
+  margin-top: 172px;
 }
 
 .fixx {
@@ -476,10 +481,10 @@ main {
   background: #fff;
   border: 1px solid #f55800;
 }
+
 .big-button:hover a {
   color: #f55800
 }
-
 
 .big-button:active {
   background: #e05304;
@@ -492,3 +497,97 @@ main {
 
 
 /* end of second section */
+
+#end {
+  background: #000;
+  margin-top: 130px;
+}
+
+.about {
+  background-image: url(img/about.png);
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position: 100% 100%;
+  margin-left: 142px;
+  border: 2px solid green;
+}
+
+.about h1 {
+  font-size: 72px;
+  padding-top: 130px;
+}
+
+.about p {
+  margin-left: 0;
+  width: 556px;
+  font-weight: 400;
+  color: #f4f5f7;
+  font-size: 17px;
+}
+
+.get {
+  width: 161px;
+  height: 48px;
+  background: #f55800;
+}
+
+.get li {
+  text-align: center;
+  list-style: none;
+  margin-top: 10px;
+}
+
+.get li a {
+  text-decoration: none;
+  color: #fff;
+  /* font-size: 17px; */
+  font-family: 'Inter', sans-serif;
+}
+
+.orange {
+  color: #ff6b00;
+}
+
+.columns {
+  color: #fff;
+  background: #000;
+}
+
+.rec1 {
+  margin-right: 10px;
+}
+
+.rec2 {
+  margin-right: 15px;
+}
+
+.rec3 {
+  margin-right: 10px;
+}
+
+.columns ul {
+  list-style-type: none;
+}
+
+.columns li {
+  text-align: center;
+  height: 50px;
+}
+
+.columns li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.get:hover {
+  background: #fff;
+  border: 1px solid f55800;
+}
+
+.get:hover a {
+  color: #f55800;
+}
+
+.columns li a:hover {
+  font-size: 26px;
+}
