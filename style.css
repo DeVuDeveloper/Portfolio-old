@@ -411,14 +411,13 @@ body {
   background: #f55800;
 }
 
-
-
 form ul li {
   list-style: none;
 }
 
 .get li {
   list-style: none;
+  width: 137px;
 }
 
 .second-column a {
@@ -579,10 +578,6 @@ form ul li textarea {
   margin-left: 710px;
 }
 
-.get li {
-  width: 137px;
-}
-
 .soc {
   width: 19.96px;
   height: 19.6px;
@@ -614,8 +609,6 @@ form ul li textarea {
   height: 20px;
 }
 
-
-
 .get {
   transition: all 0.6s ease-out;
 }
@@ -634,7 +627,6 @@ form ul li textarea {
   font-size: 20px;
 }
 
-
 .rec2:hover {
   transform: rotate(180deg);
 }
@@ -648,18 +640,6 @@ form ul li textarea {
   color: #f55800;
 }
 
-.columns li a:hover {
-  font-size: 26px;
-}
-
-.framework:hover {
-  background: rgba(255, 255, 255, 0.34);
-  border: 1px solid #f55800;
-}
-
-.framework:active {
-  background: rgba(255, 255, 255, 0.24);
-}
 
 .big-button:hover {
   background: #fff;
@@ -685,6 +665,19 @@ form ul li textarea {
 .navi a:hover {
   font-size: 18px;
   color: #fff;
+}
+
+.columns li a:hover {
+  font-size: 26px;
+}
+
+.framework:hover {
+  background: rgba(255, 255, 255, 0.34);
+  border: 1px solid #f55800;
+}
+
+.framework:active {
+  background: rgba(255, 255, 255, 0.24);
 }
 
 .menu:hover {
@@ -777,7 +770,7 @@ form ul li textarea {
 
   .toolbar {
     position: relative;
-    top: 330px;
+    top: 260px;
   }
 
   /* end of 1st section */
@@ -819,7 +812,7 @@ form ul li textarea {
   .around-p p {
     font-size: 13.80px;
     line-height: 19.30px;
-    color: #091E42;
+    color: #091e42;
     text-align: justify;
   }
 
@@ -837,6 +830,7 @@ form ul li textarea {
     font-size: 11.73px;
     padding: 0 3px;
   }
+
   #buttons-container {
     margin-top: -10px;
   }
@@ -856,17 +850,17 @@ form ul li textarea {
   }
   .projects1 {
     height: 300px;
-    width: 254px
+    width: 254px;
   }
 
   .projects2 {
     height: 300px;
-    width: 254px
+    width: 254px;
   }
 
   .projects3 {
     height: 300px;
-    width: 254px
+    width: 254px;
   }
 
   .fix h2 {
@@ -947,7 +941,7 @@ form ul li textarea {
 
   .about h1 {
     font-size: 49px;
-    padding-top: 89x;
+    padding-top: 89px;
   }
 
   .about p {
@@ -1083,5 +1077,5 @@ form ul li textarea {
 
   .soc-media li:hover {
     font-size: 12.8px;
-  }
+   }
   }
