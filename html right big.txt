@@ -18,7 +18,7 @@
         <section id='wraper'>
             <header id='header'>
                 <div class='me'>
-                    <h2 class='white inter'>Dejan Vujovic</h2>
+                    <h1 class='white inter'>Dejan Vujovic</h1>
                 </div>
 
                 <ul class='navi'>
@@ -112,115 +112,114 @@
                 </div>
             </div>
         </section>
-        <!-- upper row -->
+            <!-- upper row -->
 
-        <div class="projects-row">
-            <section class="projects ">
+            <div class="projects-row">
+                <section class="projects mediaq">
 
-                <ul class="big-button">
-                    <li class="or-button"><a href="#">See Project</a>
-                    </li>
-                </ul>
-            </section>
-            <section class="projects1 ">
-                <div class="fix2 fix2">
-                    <h2 class="white creta fixx">
-                        Data Dashboard<br>Healthcare
-
-                    </h2>
-
-                    <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
-
-                    <ul class='framework-container'>
-                        <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
-              html</a></li>
-                        <li class='framework'><a href="https://getbootstrap.com/">
-              bootstrap</a></li>
-                        <li class='framework'><a href="https://www.ruby-lang.org/en/">
-              Ruby</a></li>
+                    <ul class="big-button">
+                        <li class="or-button"><a href="#">See Project</a>
+                        </li>
                     </ul>
-                </div>
-            </section>
-            <section class="projects2 ">
-                <div class="fix">
-                    <h2 class="white creta fixx">
-                        Website Portfolio
+                </section>
+                <section class="projects1 mediaq">
+                    <div class="fix2">
+                        <h2 class="white creta fixx">
+                            Data Dashboard<br>Healthcare
 
-                    </h2>
+                        </h2>
 
-                    <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
+                        <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
 
-                    <ul class='framework-container'>
-                        <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
+                        <ul class='framework-container'>
+                            <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
               html</a></li>
-                        <li class='framework'><a href="https://getbootstrap.com/">
+                            <li class='framework'><a href="https://getbootstrap.com/">
               bootstrap</a></li>
-                        <li class='framework'><a href="https://www.ruby-lang.org/en/">
+                            <li class='framework'><a href="https://www.ruby-lang.org/en/">
               Ruby</a></li>
-                    </ul>
-                </div>
-            </section>
+                        </ul>
+                    </div>
+                </section>
+                <section class="projects2 mediaq">
+                    <div class="fix">
+                        <h2 class="white creta fixx">
+                            Website Portfolio
 
-            <section class="projects3 ">
-                <div class="fix2">
-                    <h2 class="white creta fixx">
-                        Profesional Art<br> Printing Data More
+                        </h2>
 
-                    </h2>
+                        <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
 
-                    <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
-
-                    <ul class='framework-container'>
-                        <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
+                        <ul class='framework-container'>
+                            <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
               html</a></li>
-                        <li class='framework'><a href="https://getbootstrap.com/">
+                            <li class='framework'><a href="https://getbootstrap.com/">
               bootstrap</a></li>
-                        <li class='framework'><a href="https://www.ruby-lang.org/en/">
+                            <li class='framework'><a href="https://www.ruby-lang.org/en/">
               Ruby</a></li>
-                    </ul>
-                </div>
-            </section>
+                        </ul>
+                    </div>
+                </section>
 
-            <section class="projects1 ">
-                <div class="fix2">
-                    <h2 class="white creta fixx">
-                        Data Dashboard<br>Healthcare
+                <section class="projects3 mediaq">
+                    <div class="fix2">
+                        <h2 class="white creta fixx">
+                            Profesional Art<br>Printing Data More
 
-                    </h2>
+                        </h2>
 
-                    <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
+                        <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
 
-                    <ul class='framework-container'>
-                        <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
+                        <ul class='framework-container'>
+                            <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
               html</a></li>
-                        <li class='framework'><a href="https://getbootstrap.com/">
+                            <li class='framework'><a href="https://getbootstrap.com/">
               bootstrap</a></li>
-                        <li class='framework'><a href="https://www.ruby-lang.org/en/">
+                            <li class='framework'><a href="https://www.ruby-lang.org/en/">
               Ruby</a></li>
-                    </ul>
-                </div>
-            </section>
+                        </ul>
+                    </div>
+                </section>
+                <section class="projects1 mediaq">
+                    <div class="fix2">
+                        <h2 class="white creta fixx">
+                            Data Dashboard<br>Healthcare
 
-            <section class="projects2 ">
-                <div class="fix">
-                    <h2 class="white creta fixx">
-                        Website Portfolio
+                        </h2>
 
-                    </h2>
+                        <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
 
-                    <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
-
-                    <ul class='framework-container'>
-                        <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
+                        <ul class='framework-container'>
+                            <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
               html</a></li>
-                        <li class='framework'><a href="https://getbootstrap.com/">
+                            <li class='framework'><a href="https://getbootstrap.com/">
               bootstrap</a></li>
-                        <li class='framework'><a href="https://www.ruby-lang.org/en/">
+                            <li class='framework'><a href="https://www.ruby-lang.org/en/">
               Ruby</a></li>
-                    </ul>
-                </div>
-            </section>
-        </div>
+                        </ul>
+                    </div>
+                </section>
+
+                <section class="projects2 mediaq">
+                    <div class="fix">
+                        <h2 class="white creta fixx">
+                            Website Portfolio
+
+                        </h2>
+
+                        <h5 class='white inter fixx'>A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</h5>
+
+                        <ul class='framework-container'>
+                            <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
+              html</a></li>
+                            <li class='framework'><a href="https://getbootstrap.com/">
+              bootstrap</a></li>
+                            <li class='framework'><a href="https://www.ruby-lang.org/en/">
+              Ruby</a></li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
 
         </section>
 
@@ -310,34 +309,31 @@
                     </li>
                 </ul>
 
-                
+                <div class='soc-media'>
 
-                   
+                    <ul>
+                        <li class='soc'>
+                            <a href="https://github.com/VuDej">
+                                <i class="fa-brands fa-github"></i></a>
+                        </li>
+                        <li class='soc'>
+                            <a href="https://www.google.com/">
+                                <i class="fa-brands fa-google"></i></a>
+                        </li>
+                        <li class='soc'>
+                            <a href="https://twitter.com/DejanVuj">
+                                <i class='fa-brands fa-twitter'></i></a>
+                        </li>
+                        <li class='soc'>
+                            <a href="https://www.figma.com/">
+                                <i class='fa-brands fa-figma'></i></a>
+                        </li>
 
-                
+                    </ul>
+
+                </div>
 
             </form>
-            <div class='soc-media'>
-            <ul class='icons'>
-                <li class='soc'>
-                    <a href="https://github.com/VuDej">
-                        <i class="fa-brands fa-github"></i></a>
-                </li>
-                <li class='soc'>
-                    <a href="https://www.google.com/">
-                        <i class="fa-brands fa-google"></i></a>
-                </li>
-                <li class='soc'>
-                    <a href="https://twitter.com/DejanVuj">
-                        <i class='fa-brands fa-twitter'></i></a>
-                </li>
-                <li class='soc'>
-                    <a href="https://www.figma.com/">
-                        <i class='fa-brands fa-figma'></i></a>
-                </li>
-
-            </ul>
-        </div>
 
         </section>
 
