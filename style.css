@@ -593,10 +593,10 @@ form ul li textarea {
   position: fixed;
   background: #3e3c3c;
   list-style: none;
-  right: 350px;
   width: 200px;
   transition: 750ms;
   z-index: 1000;
+  right: 0;
 }
 
 .navi li {
@@ -777,7 +777,7 @@ form ul li textarea {
     width: 471px;
     height: 309px;
     margin: 0 3.49px 0 97px;
-    border: 2px solid red
+  }
 
   .row {
     margin-top: 50px;
@@ -866,27 +866,28 @@ form ul li textarea {
 
   .fix2 h2 {
     font-size: 22px;
+    
   }
 
   .fix {
     display: flex;
     flex-direction: column;
-    margin-top: 145px;
+    margin-top: 125px;
   }
 
   .fix2 {
     display: flex;
     flex-direction: column;
-    margin-top: 119px;
+    margin-top: 98px;
   }
 
   .fix h5 {
-    height: 60px;
+    height: 80px;
     font-size: 12px;
   }
 
   .fix2 h5 {
-    height: 60px;
+    height: 80px;
     font-size: 12px;
   }
 
