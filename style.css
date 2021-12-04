@@ -421,6 +421,10 @@ form ul li {
   width: 137px;
 }
 
+.soc a {
+  color: #252424;
+}
+
 .second-column a {
   font-size: 17px;
   font-family: 'Inter', sans-serif;
@@ -577,6 +581,7 @@ form ul li textarea {
   list-style: none;
   padding-top: 20px;
   margin-left: 710px;
+  color: #1c1a19;
 }
 
 .soc {
@@ -636,7 +641,6 @@ form ul li textarea {
 .get:hover a {
   color: #f55800;
 }
-
 
 .big-button:hover {
   background: #fff;
@@ -733,8 +737,8 @@ form ul li textarea {
   }
 
   .content h1 {
-    font-size: 49.68px;
-    line-height: 55.89px;
+    font-size: 50x;
+    line-height: 56px;
   }
 
   .me h2 {
@@ -746,7 +750,7 @@ form ul li textarea {
   }
 
   .navi li {
-    height: 16.80px;
+    height: 17px;
     margin-right: 20.70px;
   }
 
@@ -789,14 +793,14 @@ form ul li textarea {
 
   .in-row h2 {
     font-size: 30px;
-    margin-top: 13.80px;
+    margin-top: 14px;
   }
 
   .title h2 {
-    font-size: 27.6px;
-    line-height: 35.88px;
+    font-size: 28px;
+    line-height: 36px;
     width: 225.63px;
-    margin: 34.50px 0 13.80px 97px;
+    margin: 35px 0 14px 97px;
   }
 
   .around-p {
@@ -806,8 +810,8 @@ form ul li textarea {
   }
 
   .around-p p {
-    font-size: 13.80px;
-    line-height: 19.30px;
+    font-size: 13px;
+    line-height: 19px;
     color: #091e42;
     text-align: justify;
   }
@@ -823,7 +827,7 @@ form ul li textarea {
   }
 
   .button a {
-    font-size: 11.73px;
+    font-size: 12px;
     padding: 0 3px;
   }
 
@@ -836,14 +840,15 @@ form ul li textarea {
   .projects-row {
     width: 800px;
     padding: 0;
-    margin: 16.56px 98.67px 0 98.67px;
-    gap: 16.56px 11.70px;
+    margin: 16px 99px 0 99px;
+    gap: 16.56px 12px;
   }
 
   .projects {
     height: 300px;
     width: 254px;
   }
+
   .projects1 {
     height: 300px;
     width: 254px;
@@ -872,7 +877,7 @@ form ul li textarea {
     flex-direction: column;
     margin-top: 145px;
   }
-  
+
   .fix2 {
     display: flex;
     flex-direction: column;
@@ -881,29 +886,29 @@ form ul li textarea {
 
   .fix h5 {
     height: 60px;
-    font-size: 11.73px;
+    font-size: 12px;
   }
 
   .fix2 h5 {
     height: 60px;
-    font-size: 11.73px;
+    font-size: 12px;
   }
 
   .framework-container {
     display: flex;
     align-items: center;
     padding-left: 16px;
-    margin-top: 13.80px;
+    margin-top: 14px;
   }
 
   .framework {
     padding: 0 8.2px;
     height: 27px;
-    margin-right: 8.2px;
+    margin-right: 8px;
   }
 
   .framework a {
-    font-size: 10.35px;
+    font-size: 10px;
   }
 
   .big-button {
@@ -917,7 +922,7 @@ form ul li textarea {
 
   .or-button a {
     letter-spacing: 0.02em;
-    font-size: 11.73px;
+    font-size: 12px;
     line-height: 16px;
   }
 
@@ -944,7 +949,7 @@ form ul li textarea {
   .about p {
     margin-left: 0;
     width: 383px;
-    font-size: 11.73px;
+    font-size: 12px;
   }
 
   .get {
@@ -953,15 +958,15 @@ form ul li textarea {
   }
 
   .first-column a {
-    font-size: 11.73px;
+    font-size: 12px;
   }
 
   .second-column a {
-    font-size: 11.73px;
+    font-size: 12px;
   }
 
   .third-column a {
-    font-size: 11.73px;
+    font-size: 12px;
   }
 
   .get li {
@@ -969,7 +974,7 @@ form ul li textarea {
   }
 
   .get li a {
-    font-size: 11.73px;
+    font-size: 12px;
   }
 
   /* end of first part */
@@ -990,7 +995,7 @@ form ul li textarea {
   }
 
   .columns li {
-    height: 34.50px;
+    height: 34px;
     margin-left: -32px;
   }
 
@@ -1074,5 +1079,5 @@ form ul li textarea {
 
   .soc-media li:hover {
     font-size: 12.8px;
-    }
   }
+}
