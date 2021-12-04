@@ -257,21 +257,18 @@ body {
   background: url(img/project2.png) no-repeat;
   background-size: cover;
   height: 435px;
-  background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
 }
 
 .projects2 {
   background: url(img/project3.png) no-repeat;
   background-size: cover;
   height: 435px;
-  background-color: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
 }
 
 .projects3 {
   background: url(img/project4.png) no-repeat;
   background-size: cover;
   height: 435px;
-  background-color: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
 }
 
 .fix h2 {
@@ -737,7 +734,7 @@ form ul li textarea {
   }
 
   .content h1 {
-    font-size: 50x;
+    font-size: 50px;
     line-height: 56px;
   }
 
@@ -751,7 +748,7 @@ form ul li textarea {
 
   .navi li {
     height: 17px;
-    margin-right: 20.70px;
+    margin-right: 21px;
   }
 
   .content p {
@@ -1016,14 +1013,14 @@ form ul li textarea {
   #contact {
     display: grid;
     grid-template-columns: 414px 1fr;
-    margin-bottom: 27.60px;
+    margin-bottom: 28px;
     margin-top: 69px;
-    padding-bottom: 289.8px;
+    padding-bottom: 289px;
     height: 227.5px;
   }
 
   form {
-    margin-left: -9.6px;
+    margin-left: -10px;
   }
 
   .text {
@@ -1033,7 +1030,7 @@ form ul li textarea {
 
   .text h2 {
     font-size: 27.6px;
-    height: 176.6px;
+    height: 177px;
   }
 
   #name {
@@ -1046,38 +1043,38 @@ form ul li textarea {
 
   form ul li input {
     width: 472px;
-    margin-bottom: 27.6px;
+    margin-bottom: 28px;
   }
 
   form ul li textarea {
     padding: 11px;
     width: 472px;
-    height: 78.65px;
+    height: 78px;
   }
 
   #submit {
     width: 90px;
     height: 33px;
-    font-size: 11.73px;
-    line-height: 16.5px;
-    margin-left: -9.6px;
-    margin-top: 8.2px;
+    font-size: 12px;
+    line-height: 17px;
+    margin-left: -10px;
+    margin-top: 8px;
   }
 
   .icons {
     gap: 20px;
-    margin-top: 55.2px;
+    margin-top: 55px;
     margin-bottom: 18px;
-    padding-top: 13.8px;
+    padding-top: 14px;
     margin-left: 512px;
   }
 
   .soc {
-    width: 113.8px;
-    height: 13.5px;
+    width: 114px;
+    height: 14px;
   }
 
   .soc-media li:hover {
-    font-size: 12.8px;
+    font-size: 13px;
   }
 }
