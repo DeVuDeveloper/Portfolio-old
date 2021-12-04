@@ -5,7 +5,7 @@
 - Section with name-navbar.
 - Section with projects.
 - Section About.
--Section Contact
+- Section Contact
 
 ![desktop portfolio](https://user-images.githubusercontent.com/93735137/144689631-a9b69314-de02-4656-99c5-151407dfe377.PNG)
 
@@ -17,7 +17,7 @@
 - CSS
 
 ## Getting Started
--
+
 - git clone https://github.com/VuDej/Portofolio-Projects.git
 - git push -u origin main
 
