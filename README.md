@@ -49,4 +49,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](LICENSE) licensed.
 
-Live preview [here](https://vudej.github.io/Responsive-Web-Design -Portfolio/).
+Live preview [here](https://vudej.github.io/Responsive-Web-Design/).
