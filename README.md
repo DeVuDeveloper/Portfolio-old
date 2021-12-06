@@ -5,7 +5,7 @@
 - Section with name-navbar.
 - Section with projects.
 - Section About.
--Section Contact
+- Section Contact
 
 ![desktop portfolio](https://user-images.githubusercontent.com/93735137/144689631-a9b69314-de02-4656-99c5-151407dfe377.PNG)
 
@@ -49,4 +49,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](LICENSE) licensed.
 
-Live preview [here](https://vudej.github.io/Responsive-Web-Design -Portfolio/).
+Live preview [here](https://vudej.github.io/Responsive-Web-Design/).
