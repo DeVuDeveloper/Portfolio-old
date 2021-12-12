@@ -46,15 +46,10 @@
   width: 100%;
 }
 
-#close {
-  margin-left: 20px;
-}
-
-.menu {
+#rec {
+font-size: 20px;
   color: #fff;
-  font-size: 30px;
-  margin-left: 10px;
-  margin-right: 153px;
+  margin-right: 151px;
 }
 
 .me h2 {
@@ -575,19 +570,6 @@ form textarea {
   height: 19.6px;
 }
 
-#sidebar {
-  display: flex;
-  top: -100%;
-  flex-direction: column;
-  position: fixed;
-  background: #3e3c3c;
-  list-style: none;
-  width: 170px;
-  transition: 750ms;
-  z-index: 1000;
-  right: 100px;
-}
-
 @media only screen and (max-width: 922px) {
   #wraper {
     height: 682px;
@@ -598,21 +580,25 @@ form textarea {
     background-position: 100% 100%;
   }
 
-  .menu {
-    color: #fff;
-    font-size: 30px;
-    margin-right: 19px;
-    padding: 0;
-  }
-
-  #close {
-    margin-left: -1px;
-  }
-
   .me h2 {
     font-size: 18px;
     margin: 26px 0;
     padding-left: 24px;
+  }
+
+  #rec {
+   display: none;
+  }
+
+  .menu {
+    width: 26px;
+    height: 26px;
+    position: relative;
+    display: inline-block;
+    background-size: 1px 9px;
+    background-image: -webkit-linear-gradient(#f4f7fa 10%, transparent 35%, transparent);
+    margin-right: 0;
+    top: 8px;
   }
 
   .navigation {
@@ -708,8 +694,8 @@ form textarea {
   .pic img {
     margin: 80px 24px 24px 24px;
     padding: 0;
-    width: 327px;
-    height: 237px;
+    width: 65%;
+    height: auto;
   }
 
   .in-row {
@@ -1051,11 +1037,6 @@ form textarea {
     margin: auto;
   }
 
-  #sidebar {
-    top: -100%;
-    width: 150px;
-    right: 0;
-  }
 }
 
 @media only screen and (min-width: 922px) {
@@ -1153,10 +1134,6 @@ form textarea {
   background: rgba(255, 255, 255, 0.24);
 }
 
-.menu:hover {
-  font-size: 35px;
-}
-
 .button:active {
   background: #ff6b00;
 }
@@ -1167,28 +1144,4 @@ form textarea {
 
 .buttons:active {
   background: #ff6b00;
-}
-
-#sidebar li {
-  margin-top: 30px;
-  text-align: center;
-  width: 110px;
-  height: 50px;
-}
-
-#sidebar a {
-  text-align: center;
-  text-decoration: none;
-  width: 110px;
-  height: 50px;
-  color: #fff;
-}
-
-#sidebar a:hover {
-  font-size: 17px;
-}
-
-#sidebar.active {
-  top: 0;
-  transition: 350ms;
 }
