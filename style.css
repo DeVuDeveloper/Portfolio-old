@@ -109,7 +109,6 @@ font-size: 20px;
 
 .toolbar {
   width: 8%;
-  /* border: 2px solid green; */
 }
 
 .toolbar ul {
@@ -579,20 +578,45 @@ form textarea {
 }
 
 #slidebar {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: -100%;
   background-color: #3c3a39;
   width: 100%;
-  height: 100%;
+  height: 80%;
+  transition: 750ms;
+  z-index: 1000;
+  padding:108px 24px 0 24px;
+  
 }
 
-.nav-menu {
-  margin-top: 100px;
+#slidebar.show {
+  top: 0;
+  transition: 350ms;
+}
+
+#slidebar hr {
+  padding: 1px;
+  color: white;
+  width: 298px;
+}
+
+.close {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -80px;
+  right: 20px;
+  font-size: 40px;
+  width: 10px;
+  height: 10px;
+  color:  #67798e;
+  cursor: pointer;
 }
 
 .nav-menu a {
   text-decoration: none;
-}
-
-.nav-menu li {
   font-family: Inter;
   font-size: 32px;
   font-style: normal;
@@ -600,6 +624,20 @@ form textarea {
   line-height: 44px;
   letter-spacing: 0;
   text-align: left;
+  color: #fff5e1;
+}
+
+.nav-menu li {
+  
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  width: 50px;
+  height: 50px;
 }
 
 @media only screen and (max-width: 922px) {
@@ -1177,3 +1215,18 @@ form textarea {
 .buttons:active {
   background: #ff6b00;
 }
+
+.menu:hover {
+  width: 27px;
+  background-image: -webkit-linear-gradient(#acb7c3 10%, transparent 35%, transparent);
+}
+
+.close:hover {
+  font-size: 41px;
+  color: #fff;
+}
+
+.nav-menu a:hover {
+  font-size: 37px;
+}
+

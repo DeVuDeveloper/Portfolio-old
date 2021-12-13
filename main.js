@@ -1,12 +1,11 @@
 const openMenu = document.querySelector('#open');
-const hideMenu = document.querySelector('#close');
-const sideMenu = document.querySelector('#sidebar');
+const closeMenu = document.querySelector('.close');
+const slideMenu =document.querySelector('#slidebar');
 
 openMenu.addEventListener('click', function() {
-  sideMenu.classList.add('active')
+    slideMenu.classList.add('show');
 });
 
-
-hideMenu.addEventListener('click', function() {
-    sideMenu.classList.remove('active')
+closeMenu.addEventListener('click', function() {
+  slideMenu.classList.remove('show');
 });
