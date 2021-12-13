@@ -6,9 +6,6 @@ openMenu.addEventListener('click', function() {
     slideMenu.classList.add('show');
 });
 
-// closeMenu.addEventListener('click', function() {
-//   slideMenu.classList.remove('show');
-// });
 closeMenu.forEach(element => {
-  element (slideMenu.classList.remove('show'));
+  element.addEventListener('click', () => slideMenu.classList.remove("show"));
 });

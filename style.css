@@ -588,7 +588,6 @@ form textarea {
   transition: 750ms;
   z-index: 1000;
   padding:108px 24px 0 24px;
-  
 }
 
 #slidebar.show {
@@ -596,18 +595,20 @@ form textarea {
   transition: 350ms;
 }
 
-#slidebar hr {
-  padding: 1px;
+ #slidebar hr {
+  margin:0;
+  padding : 0;
   color: white;
   width: 298px;
-}
+ 
+}  
 
-.close {
+.times {
   margin: 0;
   padding: 0;
   position: relative;
   top: -80px;
-  right: 20px;
+  right: 30px;
   font-size: 40px;
   width: 10px;
   height: 10px;
@@ -628,16 +629,10 @@ form textarea {
 }
 
 .nav-menu li {
-  
-  font-family: Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
+  padding-left: 16px;
+
   text-align: left;
-  width: 50px;
-  height: 50px;
+
 }
 
 @media only screen and (max-width: 922px) {
