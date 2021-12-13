@@ -296,7 +296,7 @@
   font-size: 1.18vw;
   line-height: 24px;
   margin-left: 16px;
-  margin-bottom: auto; 
+  margin-bottom: auto;
 }
 
 .fix2 h5 {
@@ -333,6 +333,7 @@
   color: #fff;
 
 }
+
 .big-button {
   display: flex;
   align-items: center;
@@ -340,7 +341,7 @@
   height: 58px;
   background: #f55800;
   padding: 0;
-  margin: 365px auto ;
+  margin: 365px auto;
   transition: all 0.6s ease-out;
 }
 
@@ -432,6 +433,19 @@ form ul li {
   font-size: 17px;
   font-family: 'Inter', sans-serif;
 }
+
+.nav-menu a {
+  text-decoration: none;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff5e1;
+}
+
 
 .get li a {
   text-decoration: none;
@@ -591,7 +605,7 @@ form textarea {
   transition: 350ms;
 }
 
- #slidebar hr {
+#slidebar hr {
   margin: 0;
   padding : 0;
   color: white;
@@ -607,20 +621,8 @@ form textarea {
   font-size: 40px;
   width: 10px;
   height: 10px;
-  color:  #67798e;
+  color: #67798e;
   cursor: pointer;
-}
-
-.nav-menu a {
-  text-decoration: none;
-  font-family: Inter;
-  font-size: 32px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 44px;
-  letter-spacing: 0;
-  text-align: left;
-  color: #fff5e1;
 }
 
 .nav-menu li {
@@ -631,7 +633,6 @@ form textarea {
 }
 
 @media only screen and (max-width: 922px) {
-
   #wraper {
     height: 682px;
     background: #1c1a19;
@@ -639,7 +640,7 @@ form textarea {
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: 100% 100%;
-}
+  }
 
   .me h2 {
     font-size: 18px;
@@ -918,7 +919,7 @@ form textarea {
     height: 58px;
     background: #f55800;
     padding: 0;
-    margin: auto ;
+    margin: auto;
     transition: all 0.6s ease-out;
   }
   
