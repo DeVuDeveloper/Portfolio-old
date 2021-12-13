@@ -2,7 +2,7 @@ const openMenu = document.querySelector('#open');
 const closeMenu = document.querySelectorAll('.close');
 const slideMenu = document.querySelector('#slidebar');
 
-openMenu.addEventListener('click', function () {
+openMenu.addEventListener = ('click', () => {
   slideMenu.classList.add('show');
 });
 
