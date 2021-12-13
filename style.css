@@ -592,7 +592,7 @@ form textarea {
   top: -100%;
   background-color: #3c3a39;
   width: 100%;
-  height: 80%;
+  height: 100%;
   transition: 750ms;
   z-index: 1000;
   padding: 108px 24px 0 24px;
@@ -603,11 +603,8 @@ form textarea {
   transition: 350ms;
 }
 
-#slidebar hr {
-  margin: 0;
-  padding: 0;
-  color: white;
-  width: 298px;
+.changes {
+  width: 100%;
 }
 
 .times {
@@ -617,17 +614,17 @@ form textarea {
   top: -80px;
   right: 30px;
   font-size: 40px;
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   color: #67798e;
   cursor: pointer;
 }
 
 .nav-menu li {
-  border-bottom: 1px solid rgb(94, 91, 91);
+  border-bottom: 2px solid #67798e;
   padding-left: 16px;
   text-align: left;
-  width: 330px;
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 922px) {
