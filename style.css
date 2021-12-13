@@ -605,7 +605,7 @@ form textarea {
 
 #slidebar hr {
   margin: 0;
-  padding : 0;
+  padding: 0;
   color: white;
   width: 298px;
 }  
@@ -920,7 +920,7 @@ form textarea {
     margin: auto;
     transition: all 0.6s ease-out;
   }
-  
+
   .or-button {
     margin: auto;
     list-style-type: none;
