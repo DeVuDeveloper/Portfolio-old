@@ -109,7 +109,7 @@ font-size: 20px;
 
 .toolbar {
   width: 8%;
-  border: 2px solid green;
+  /* border: 2px solid green; */
 }
 
 .toolbar ul {
@@ -576,6 +576,30 @@ form textarea {
 .soc {
   width: 19.96px;
   height: 19.6px;
+}
+
+#slidebar {
+  background-color: #3c3a39;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-menu {
+  margin-top: 100px;
+}
+
+.nav-menu a {
+  text-decoration: none;
+}
+
+.nav-menu li {
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0;
+  text-align: left;
 }
 
 @media only screen and (max-width: 922px) {
