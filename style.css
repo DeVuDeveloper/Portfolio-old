@@ -757,9 +757,9 @@ form textarea {
     background-position: 100% 100%;
   }
 
-  .pop-hide1-h2 {
+   .pop-hide1-h2 {
     display: none;
-  }
+  } 
 
   .me h2 {
     font-size: 18px;
@@ -1223,11 +1223,11 @@ form textarea {
   .hide {
     display: none;
   }
-}
+
 
 .pop-hide-h2 {
   display: none;
-}
+} 
 
 .navi li {
   list-style: none;
@@ -1240,6 +1240,7 @@ form textarea {
   right: 10px;
   margin-top: 12px;
   height: 20px;
+}
 }
 
 #submit:hover {
