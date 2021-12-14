@@ -129,6 +129,126 @@
   margin-right: 87px;
 }
 
+/* pop up */
+
+.pop-up {
+  position: fixed;
+  top: 0;
+  left: 16px;
+  right: 16px;
+  bottom: 200px;
+  border: 2px solid red;
+  width: 90%;
+  height: 77%;
+  background: #fff; 
+  z-index: 1000;
+}
+
+.pop-img {
+  margin-bottom: 24px;
+}
+
+
+.pop-up h2 {
+font-family: 'Roboto', sans-serif;
+font-weight: bold;
+font-size: 32px;
+line-height: 44px;
+color: #172b4d;
+margin-bottom: 50px;
+}
+
+.pop-info {
+  margin-bottom: 24px;
+}
+
+#pop {
+  display: flex;
+  justify-content: baseline;
+}
+
+#pop li {
+ 
+}
+
+.pop-x {
+   position: relative;
+    bottom: 20px;
+    font-size: 40px;
+    color: #67798e;
+    cursor: pointer;
+    height: 60px;
+}
+
+.pop-up a {
+  text-decoration: none;
+}
+
+.pop-btns {
+  border: 1px solid #3c3a39;
+  height: 36px;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 5px 6px;
+  margin-right: 6px;
+  transition: all 0.6s ease-out;
+}
+
+.pop-btns a {
+  font-size: 16px;
+  color: #3c3a39;
+}
+
+.pop-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.pop-button a {
+  color: #fff;
+}
+
+.pop-btn {
+  display: flex;
+  align-items: center;
+  height: 48px;
+  background: #ff6b00;
+  padding: 0 14px;
+  transition: all 0.6s ease-out;
+}
+
+.pop-btn a{
+  font-family: 'Inter', sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+
+.pop-button ul{
+  background: #ff6b00;
+}
+
+.flex-icon {
+  display:flex;
+  align-items: center;
+  border: 1px solid #8993a4;
+}
+
+.icn {
+  padding-right: 14px;
+  color: #fff;
+}
+
+.pop-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* pop up end */
+
 /* end first page */
 
 #container {
@@ -637,6 +757,10 @@ form textarea {
     background-position: 100% 100%;
   }
 
+  .pop-hide1-h2 {
+    display: none;
+  }
+
   .me h2 {
     font-size: 18px;
     margin: 26px 0;
@@ -1099,6 +1223,10 @@ form textarea {
   .hide {
     display: none;
   }
+}
+
+.pop-hide-h2 {
+  display: none;
 }
 
 .navi li {
