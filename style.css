@@ -136,7 +136,6 @@
   width: auto;
   height: auto;
   position: fixed;
-  border: 2px solid red;
   background: #fff; 
   z-index: 1000;
   visibility: hidden;
@@ -1227,11 +1226,11 @@ form textarea {
 /*  pop up start */
 
   .pop-up {
-    border: 2px solid red;
     bottom: 100px;
     top: 112px;
     right: 142px;
     left: 142px;
+    height: 631px;
   }
 
   .pop-hide-h2 {
