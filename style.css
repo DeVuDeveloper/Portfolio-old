@@ -1229,6 +1229,35 @@ form textarea {
   display: none;
 } 
 
+.pop-up {
+  width: 100%;
+}
+
+.pop-img {
+  border: 2px solid blue;
+}
+
+.pop-flex1 {
+  display: flex;
+  justify-content: center;
+  border: 2px solid green;
+  margin: 0;
+  padding: 0%;
+}
+
+.pop-info p {
+  flex: 1;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 424px;
+
+}
+
 .navi li {
   list-style: none;
   height: 20px;
