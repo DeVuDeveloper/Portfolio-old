@@ -164,7 +164,7 @@
 
 #pop {
   display: flex;
- }
+}
 
 .pop-x {
   position: relative;
@@ -215,13 +215,12 @@
   transition: all 0.6s ease-out;
 }
 
-.pop-btn a{
+.pop-btn a {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
 }
-
 
 .pop-button ul{
   background: #ff6b00;
@@ -761,8 +760,8 @@ form textarea {
     background-position: 100% 100%;
   }
 
-   .pop-hide1-h2 {
-    display: none;
+  .pop-hide1-h2 {
+     display: none;
   }
 
   .me h2 {
@@ -1235,8 +1234,8 @@ form textarea {
 
   .pop-hide-h2 { 
     display: none;
-  } 
-
+  }
+ 
   .pop-img {
     flex : 2;
     width: 50%;
@@ -1289,6 +1288,7 @@ form textarea {
   }
 
 /* pop up end */
+
   .toolbar li {
     position: relative;
     right: 10px;
