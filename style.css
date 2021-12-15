@@ -222,7 +222,7 @@
   line-height: 24px;
 }
 
-.pop-button ul{
+.pop-button ul {
   background: #ff6b00;
   margin: 0;
 }
@@ -761,7 +761,7 @@ form textarea {
   }
 
   .pop-hide1-h2 {
-     display: none;
+    display: none;
   }
 
   .me h2 {
@@ -1153,7 +1153,6 @@ form textarea {
     padding: 0;
   }
 
- 
   .ttl {
     text-align: center;
     margin: 120px 24px 73px 24px;
@@ -1222,7 +1221,7 @@ form textarea {
     display: none;
   }
 
-/*  pop up start */
+  /*  pop up start */
 
   .pop-up {
     bottom: 100px;
@@ -1287,7 +1286,7 @@ form textarea {
     margin-bottom: 50px;
   }
 
-/* pop up end */
+  /* pop up end */
 
   .toolbar li {
     position: relative;
