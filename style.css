@@ -136,7 +136,7 @@
   width: auto;
   height: auto;
   position: fixed;
-  background: #fff; 
+  background: #fff;
   z-index: 1000;
   visibility: hidden;
 }
@@ -150,12 +150,12 @@
 }
 
 .pop-up h2 {
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-color: #172b4d;
-margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 50px;
 }
 
 .pop-info {
@@ -164,16 +164,15 @@ margin-bottom: 50px;
 
 #pop {
   display: flex;
-  justify-content: baseline;
-}
+ }
 
 .pop-x {
-   position: relative;
-    bottom: 20px;
-    font-size: 40px;
-    color: #67798e;
-    cursor: pointer;
-    height: 60px;
+  position: relative;
+  bottom: 20px;
+  font-size: 40px;
+  color: #67798e;
+  cursor: pointer;
+  height: 60px;
 }
 
 .pop-up a {
@@ -230,7 +229,7 @@ margin-bottom: 50px;
 }
 
 .flex-icon {
-  display:flex;
+  display: flex;
   align-items: center;
   border: 1px solid #8993a4;
 }
@@ -638,7 +637,6 @@ form {
 #error {
   font-weight: 500;
   font-style: italic;
- 
   width: 100%;
   text-align: left;
 }
@@ -678,7 +676,6 @@ form textarea {
 .btn {
   display: flex;
   flex-direction: column;
-
 }
 
 #submit {
@@ -766,7 +763,7 @@ form textarea {
 
    .pop-hide1-h2 {
     display: none;
-  } 
+  }
 
   .me h2 {
     font-size: 18px;
@@ -787,7 +784,7 @@ form textarea {
     background-image: -webkit-linear-gradient(#f4f7fa 10%, transparent 35%, transparent);
     margin-right: 0;
     top: 15px;
-    right:25px;
+    right: 25px;
   }
 
   .navigation {
@@ -1192,11 +1189,6 @@ form textarea {
     margin: 0;
   }
 
-  .btn {
-    
-   
-  }
-
   #submit {
     margin: 0 90px;
     width: 131px;
@@ -1241,7 +1233,7 @@ form textarea {
     height: 631px;
   }
 
-  .pop-hide-h2 {
+  .pop-hide-h2 { 
     display: none;
   } 
 
