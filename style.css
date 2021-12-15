@@ -635,6 +635,14 @@ form {
   margin-right: 142px;
 }
 
+#error {
+  font-weight: 500;
+  font-style: italic;
+ 
+  width: 100%;
+  text-align: left;
+}
+
 .ttl h2 {
   padding-left: 135px;
   font-family: 'Inter', sans-serif;
@@ -669,7 +677,8 @@ form textarea {
 
 .btn {
   display: flex;
-  justify-content: start;
+  flex-direction: column;
+
 }
 
 #submit {
@@ -1148,6 +1157,7 @@ form textarea {
     padding: 0;
   }
 
+ 
   .ttl {
     text-align: center;
     margin: 120px 24px 73px 24px;
@@ -1183,10 +1193,8 @@ form textarea {
   }
 
   .btn {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+    
+   
   }
 
   #submit {
