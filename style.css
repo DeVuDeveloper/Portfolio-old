@@ -1231,12 +1231,12 @@ form textarea {
     height: 631px;
   }
 
-  .pop-hide-h2 { 
+  .pop-hide-h2 {
     display: none;
   }
  
   .pop-img {
-    flex : 2;
+    flex: 2;
     width: 50%;
     height: 448px;
     margin: 0;
