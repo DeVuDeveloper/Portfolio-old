@@ -1,5 +1,6 @@
 const form = document.getElementById('form');
-form.addEventListener('submit', (e) => {
+
+form.addEventListener('submit', (element) => {
   const email = document.getElementById('e-mail').value;
   const error = document.getElementById('error');
   const pattern = /^[^]+@[^]+\.[a-z]{2,3}$/;
@@ -10,6 +11,19 @@ form.addEventListener('submit', (e) => {
   } else {
     error.innerHTML = 'Please use lowercase!. Form is not sent';
     error.style.color = '#ff0000';
-    e.preventDefault();
+    element.preventDefault();
   }
 });
+
+const textArea = document.getElementById('user-comments');
+const lettersCounter = document.getElementById('counter');
+
+textArea.addEventListener('input', function (event) {
+    const target = event.target;
+    const maxLettersNumber = target.getAttribute('maxlength');
+    const currentLettersNumber = target.value.length;
+    lettersCounter.innerHTML = `${currentLettersNumber}/${maxLettersNumber}`;
+});
+
+
+

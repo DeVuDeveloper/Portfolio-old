@@ -359,10 +359,12 @@
                         <input id="name" type="text" name="username" placeholder="Full name" required maxlength="30">
                     </li>
                     <li>
-                        <input type="email" name='email' id='e-mail' placeholder='Email adress' required>
+                        <input type="email" name='email' id='e-mail' placeholder='Email address' required>
                     </li>
                     <li>
-                        <textarea name="user-messages" id="user-comments" cols="30" rows="10" placeholder='Enter text here' maxlength="500"></textarea>
+                        
+                        <textarea name="user-messages" id="user-comments" cols="30" rows="10" placeholder='Enter text here'minlength="30" maxlength="500" required></textarea>
+                        <span id='counter'></span>
                     </li>
                     <li>
                         <div class="btn">
