@@ -1,17 +1,15 @@
-const myFirstProject = [
-    {
-      id: 1,
-      title: 'Multi Post Stories',
-      description:
-        " Instagram's newest Stories feature allows users to post multiple photos on one screen.",
-     image: 'img/section2.png',
-      technologies: ['css', 'html', 'bootstrap', 'ruby'],
-      live: 'https://vudej.github.io/Responsive-Web-Design/',
-     source: 'https://github.com/',
-     }
-];
 const myProjects = [
-{
+  {
+    id: 1,
+    title: 'Multi Post Stories',
+    description:
+      " Instagram's newest Stories feature allows users to post multiple photos on one screen.",
+    img: 'img/section2.png',
+    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    live: 'https://vudej.github.io/Responsive-Web-Design/',
+    source: 'https://github.com/'
+  },
+  {
     id: 2,
     title: 'Professional Art Printing Data More',
     description: '',
@@ -72,8 +70,8 @@ const myProjects = [
   }
 ]
 
-const projectSections = document.querySelector('.projects-row');
-const firstProject =  document.querySelector('.container')
+const projectSections = document.querySelector('.projects-row')
+const firstProject = document.querySelector('.container')
 
 firstProject.innerHTML = `<div class="title">
 <h2 class="creta">My recent works </h2>
@@ -82,7 +80,7 @@ firstProject.innerHTML = `<div class="title">
 <div class='row'>
 
 <div class="pic">
-    <img src="img/section2.png" alt="placeholder" />
+    <img src="${myProjects[0].img}" alt="placeholder" />
 </div>
 
 <div class="in-row">
@@ -109,23 +107,19 @@ firstProject.innerHTML = `<div class="title">
             </li>
         </ul>
         <ul class='button '>
-            <li class='open-pop'><a href="#">See Project</a></li>
+            <li id='${myProjects[0].id}' class='open-pop'><a href="#">See Project</a></li>
         </ul>
     </div>
 </div>
 </div>`
 
-
-
-for (let i = 0; i < myProjects.length; i++) {
+for (let i = 1; i < myProjects.length; i++) {
   const project = myProjects[i]
-
-  
 
   projectSections.innerHTML += `
   
   
-<div class="projects media" style="background: url(${project.img}">
+<div class="projects media" style="background: url(${project.img}); background-repeat: no-repeat;  background-size: cover; ">
  
    
    <div id='${project.id}' class='fix fix2')>
@@ -154,16 +148,14 @@ for (let i = 0; i < myProjects.length; i++) {
 `
 }
 
-
 const openPop = document.querySelectorAll('.open-pop')
 
 const popUp = document.querySelector('.pop-up')
 
-
-
 openPop.forEach(element => {
   element.addEventListener('click', () => {
     const id = Number(element.id)
+    console.log(id)
     for (let i = 0; i < myProjects.length; i++) {
       const project = myProjects[i]
       if (id === project.id) {
