@@ -136,7 +136,7 @@
   width: auto;
   height: 100%;
   position: fixed;
-  background: #fff; 
+  background: #fff;
   z-index: 1000;
   visibility: hidden;
 }
@@ -150,12 +150,12 @@
 }
 
 .pop-up h2 {
-font-family: 'Roboto', sans-serif;
-font-weight: bold;
-font-size: 32px;
-line-height: 44px;
-color: #172b4d;
-margin-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 50px;
 }
 
 .pop-info {
@@ -164,16 +164,15 @@ margin-bottom: 50px;
 
 #pop {
   display: flex;
-  justify-content: baseline;
 }
 
 .pop-x {
-   position: relative;
-    bottom: 20px;
-    font-size: 40px;
-    color: #67798e;
-    cursor: pointer;
-    height: 60px;
+  position: relative;
+  bottom: 20px;
+  font-size: 40px;
+  color: #67798e;
+  cursor: pointer;
+  height: 60px;
 }
 
 .pop-up a {
@@ -216,21 +215,20 @@ margin-bottom: 50px;
   transition: all 0.6s ease-out;
 }
 
-.pop-btn a{
+.pop-btn a {
   font-family: 'Inter', sans-serif;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
 }
 
-
-.pop-button ul{
+.pop-button ul {
   background: #ff6b00;
   margin: 0;
 }
 
 .flex-icon {
-  display:flex;
+  display: flex;
   align-items: center;
   border: 1px solid #8993a4;
 }
@@ -604,6 +602,13 @@ form {
   margin-right: 142px;
 }
 
+#error {
+  font-weight: 500;
+  font-style: italic;
+  width: 100%;
+  text-align: left;
+}
+
 .ttl h2 {
   padding-left: 135px;
   font-family: 'Inter', sans-serif;
@@ -638,7 +643,7 @@ form textarea {
 
 .btn {
   display: flex;
-  justify-content: start;
+  flex-direction: column;
 }
 
 #submit {
@@ -724,6 +729,12 @@ form textarea {
     background-position: 100% 100%;
   }
 
+
+  .pop-hide1-h2 {
+    display: none;
+  }
+
+
   .me h2 {
     font-size: 18px;
     margin: 26px 0;
@@ -743,7 +754,7 @@ form textarea {
     background-image: -webkit-linear-gradient(#f4f7fa 10%, transparent 35%, transparent);
     margin-right: 0;
     top: 15px;
-    right:25px;
+    right: 25px;
   }
 
   .navigation {
@@ -1134,13 +1145,6 @@ form textarea {
     margin: 0;
   }
 
-  .btn {
-    display: flex;
-    align-items: center;
-    margin: 0;
-    padding: 0;
-  }
-
   #submit {
     margin: 0 90px;
     width: 131px;
@@ -1170,6 +1174,15 @@ form textarea {
 }
 
 @media only screen and (min-width: 922px) {
+
+
+  .show1,
+  .hide {
+    display: none;
+  }
+
+  /*  pop up start */
+
   .pop-up {
     bottom: 100px;
     top: 112px;
@@ -1180,10 +1193,10 @@ form textarea {
 
   .pop-hide-h2 {
     display: none;
-  } 
+  }
 
   .pop-img {
-    flex : 2;
+    flex: 2;
     width: 50%;
     height: 448px;
     margin: 0;

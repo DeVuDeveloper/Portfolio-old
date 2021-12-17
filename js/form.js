@@ -18,8 +18,8 @@ form.addEventListener('submit', (element) => {
 const textArea = document.getElementById('user-comments');
 const lettersCounter = document.getElementById('counter');
 
-textArea.addEventListener('input', (event) => { 
+textArea.addEventListener('input', (event) => {
   const maxLettersNumber = event.target.getAttribute('maxlength');
-  const currentLettersNumber = target.value.length;
+  const currentLettersNumber = event.target.value.length;
   lettersCounter.innerHTML = `${currentLettersNumber}/${maxLettersNumber}`;
 });
