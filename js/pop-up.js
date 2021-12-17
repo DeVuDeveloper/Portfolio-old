@@ -206,7 +206,7 @@ openPop.forEach((element) => {
     const closePop = document.querySelector('.pop-x');
     closePop.addEventListener('click', () => {
       popUp.classList.remove('pop');
-
     });
+  
   });
 });
