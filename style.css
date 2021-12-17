@@ -251,6 +251,10 @@ margin-bottom: 50px;
 
 .container {
   background: #fff;
+  padding: 0;
+  margin: 0;
+ 
+  
 }
 
 .title h2 {
@@ -258,13 +262,14 @@ margin-bottom: 50px;
   line-height: 52px;
   color: #091e42;
   font-weight: 400;
-  margin: 114px 24px 0 153.5px;
+   margin: 114px 24px 0 153.5px; 
 }
 
 .row {
   display: grid;
-  grid-template-columns: 58% 42%;
+  grid-template-columns: 60% 40%;
   padding: 0;
+  margin: 0;
 }
 
 .pic img {
@@ -292,7 +297,7 @@ margin-bottom: 50px;
   font-size: 1.38vw;
   line-height: 28px;
   color: #091e42;
-  margin-right: 143px;
+  margin-right: 50px;
 }
 
 #buttons-container {
@@ -349,26 +354,26 @@ margin-bottom: 50px;
 }
 
 /* uper row */
-
 .projects-row {
   display: grid;
   grid-template-columns: 33% 33% 33%;
   gap: 24px 16px;
   align-items: end;
+  
   margin: 024px 143px 0 143px;
 }
 
 .media {
-  height: 427px;
+  height:100%;
 }
 
-.projects {
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
-   background: url(img/project2.png) no-repeat;
+/* .projects {
+   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background: url(img/project2.png) no-repeat;
   background-size: cover; 
-  border: 2px solid #000;
-}
-
+  border: 2px solid #000;  
+} */
+/* 
 .projects1 {
   display: flex;
   align-items: end;
@@ -390,8 +395,125 @@ margin-bottom: 50px;
   align-items: end;
    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
   background: url(img/project4.png) no-repeat;
+  background-size: cover;  */
+
+
+/* .fix h2 {
+  position: relative;
+  font-size: 2.2vw;
+  margin-left: 16px;
+  color: #fff;
+} */
+
+.fix2 h2 {
+  font-size: 2.2vw;
+  margin-top: 100px;
+}
+
+.fix h5 {
+  height: 87px;
+  font-family: "Inter", sans-serif;
+  font-size: 1.18vw;
+  line-height: 24px;
+  margin-left: 16px;
+} 
+
+.framework-container {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  margin-top: 20px;
+} 
+
+ .framework {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.24);
+  list-style-type: none;
+  font-family: "Inter", sans-serif;
+  padding: 10px 12px;
+  height: 40px;
+  margin-right: 12px;
+} 
+
+ .framework a {
+  text-decoration: none;
+  font-weight: 500;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.1vw;
+  color: #fff;
+} 
+
+.big-button {
+  display: flex;
+  position: relative;
+  height: 58px;
+  background: #f55800;
+  padding: 0;
+  transition: all 0.6s ease-out;
+  align-items: center;
+  margin: auto;
+}
+
+.or-button {
+  margin: auto;
+  list-style-type: none;
+}
+
+ .big-button a {
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.03em;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+} 
+
+
+
+/* .projects-row {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  gap: 24px 16px;
+  align-items: end;
+  margin: 024px 143px 0 143px;
+}
+
+.media {
+  height: 427px;
+}
+
+.projects {
+   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background: url(img/project2.png) no-repeat;
+  background-size: cover; 
+  border: 2px solid #000;  
+}
+/* 
+.projects1 {
+  display: flex;
+  align-items: end;
+   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
+  background: url(img/project2.png) no-repeat;
   background-size: cover; 
 }
+
+.projects2 {
+  display: flex;
+  align-items: end;
+   background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+  background: url(img/project3.png) no-repeat;
+  background-size: cover; 
+}
+
+.projects3 {
+  display: flex;
+  align-items: end;
+   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+  background: url(img/project4.png) no-repeat;
+  background-size: cover;  */
+/* }
 
 .fix h2 {
   position: relative;
@@ -475,9 +597,9 @@ margin-bottom: 50px;
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-}
+} */
 
-/* end of second section */
+/*end of second section */
 
 #end {
   background: #000;
@@ -755,10 +877,6 @@ form textarea {
     background-position: 100% 100%;
   }
 
-   .pop-hide1-h2 {
-    display: none;
-  } 
-
   .me h2 {
     font-size: 18px;
     margin: 26px 0;
@@ -953,12 +1071,12 @@ form textarea {
   }
 
   .projects1 {
-    background: url(img/project1.png) no-repeat;
+    background: url(img/project4.png) no-repeat;
     background-size: cover;
   }
 
   .projects2 {
-    background: url(img/project3.png) no-repeat;
+    background: url(img/project4.png) no-repeat;
     background-size: cover;
     height: auto;
   }
