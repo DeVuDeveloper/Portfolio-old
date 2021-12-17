@@ -943,12 +943,9 @@ form textarea {
     margin-top: 20px;
   }
 
-  .projects:first-child h2 {
-    display: none;
-  }
-
   .projects:first-child .framework-container {
-    margin-right: 102px;
+
+    width: 100;
   }
 
   .media {
