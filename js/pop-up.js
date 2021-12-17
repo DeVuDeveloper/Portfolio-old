@@ -75,14 +75,14 @@ const myProjects = [
 const projectSections = document.querySelector('.projects-row');
 const firstProject =  document.querySelector('.container')
 
-firstProject.innerHTML = `<div id='${myFirstProject.id}'class="title">
+firstProject.innerHTML = `<div class="title">
 <h2 class="creta">My recent works </h2>
 <hr class='dash'>
 </div>
 <div class='row'>
 
 <div class="pic">
-    <img src="${myFirstProject.image}" alt="placeholder" />
+    <img src="img/section2.png" alt="placeholder" />
 </div>
 
 <div class="in-row">
