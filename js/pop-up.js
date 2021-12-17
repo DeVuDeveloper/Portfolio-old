@@ -1,19 +1,17 @@
 const myProjects = [
-  {
-    id: 1,
-    title: 'Multi Post Stories',
-    description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-    img: 'img/section2.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Responsive-Web-Design/',
-    source: 'https://github.com/'
-  },
+  // {
+  //   id: 1,
+  //   title: 'Multi Post Stories',
+  //   description: " Instagram's newest Stories feature allows users to post multiple photos on one screen.",
+  //   img: 'img/section2.png',
+  //   technologies: ['css', 'html', 'bootstrap', 'ruby'],
+  //   live: 'https://vudej.github.io/Responsive-Web-Design/',
+  //   source: 'https://github.com/'
+  // },
   {
     id: 2,
     title: 'Multi Post Stories',
-    description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
+    description: "Instagram's newest Stories feature allows users to post multiple photos on one screen.",
     img: 'img/project1.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
@@ -23,8 +21,8 @@ const myProjects = [
     id: 3,
     title: 'Data Dashboard Healthcare',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
-    img: 'img/project2.png.png',
+      "A healthcare dashboard is a modern analytics tool to monitor healthcare KPIs in a dynamic and interactive way.",
+    img: 'img/project2.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/)',
     source: 'https://github.com/'
@@ -32,6 +30,7 @@ const myProjects = [
   {
     id: 4,
     title: 'Website Portfolio',
+    description: 'An online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created.',
     img: 'img/project3.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/)',
@@ -41,7 +40,7 @@ const myProjects = [
     id: 5,
     title: 'Professional Art Printing Data More',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
+      "Most popular paper typeSpecially coated for clarity and longevityFingerprint resistant with a slight sheen",
     img: 'img/project4.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
@@ -51,7 +50,7 @@ const myProjects = [
     id: 6,
     title: 'Data Dashboard Healthcare',
     description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
+      "A healthcare dashboard is a modern analytics tool to monitor healthcare KPIs in a dynamic and interactive way.",
     img: 'img/project2.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
@@ -59,9 +58,8 @@ const myProjects = [
   },
   {
     id: 7,
-    title: 'Data Dashboard Healthcare',
-    description:
-      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.",
+    title: 'Website Portfolio',
+    description: "An online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created.",
     img: 'img/project3.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
@@ -69,30 +67,37 @@ const myProjects = [
   }
 ];
 
-const projectSections = document.querySelector('.projects-row')
+const projectSections = document.querySelector('.projects-row');
+
 for (let i = 0; i < myProjects.length; i++) {
   const project = myProjects[i]
-  projectSections.innerHTML += `<div class="projects media">
+  projectSections.innerHTML += `
 
-<div id=${project.id}} class='fix'>
-    <h2 class="white creta fixx show1">
-    ${project.title}</h2>
 
-    <h5 class='white inter fix hide'>${project.description}</h5>
-    <ul class='framework-container hide'>
-        <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
-        ${project.technologies[0]}</a></li>
-        <li class='framework'><a href="https://getbootstrap.com/">
-        ${project.technologies[1]}</a></li>
-        <li class='framework'><a href="https://www.ruby-lang.org/en/">
-        ${project.technologies[2]}</a></li>
-    </ul>
-    <ul class="big-button ">
-        <li id='${project.id}' class="or-button open-pop"><a href="#">See Project</a>
-        </li>
-    </ul>
-</div>
-</div>
+
+
+  
+   <div class="projects media">
+
+   <div id=${project.id}} class='fix'>
+       
+     <h2 class="white creta fixx show1">${project.title}</h2>
+      <h5 class='white inter fix hide'>${project.description}</h5>
+     
+      <ul class='framework-container hide'>
+          <li class="framework"><a href="https://en.wikipedia.org/wiki/HTML">
+          ${project.technologies[0]}</a></li>
+          <li class='framework'><a href="https://getbootstrap.com/">
+           ${project.technologies[1]}</a></li>
+           <li class='framework'><a href="https://www.ruby-lang.org/en/">
+           ${project.technologies[2]}</a></li>
+       </ul>
+       <ul class="big-button ">
+           <li id='${project.id}' class="or-button open-pop"><a href="#">See Project</a>
+           </li>
+       </ul>
+   </div>
+ 
 `
 }
 

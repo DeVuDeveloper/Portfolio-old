@@ -364,33 +364,33 @@ margin-bottom: 50px;
 
 .projects {
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
-  background: url(img/project1.png) no-repeat;
-  background-size: cover;
+   background: url(img/project2.png) no-repeat;
+  background-size: cover; 
   border: 2px solid #000;
 }
 
 .projects1 {
   display: flex;
   align-items: end;
-  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
+   background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%);
   background: url(img/project2.png) no-repeat;
-  background-size: cover;
+  background-size: cover; 
 }
 
 .projects2 {
   display: flex;
   align-items: end;
-  background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
+   background: linear-gradient(179.4deg, rgba(38, 38, 38, 0) 0.81%, rgba(38, 38, 38, 0.9) 84.03%);
   background: url(img/project3.png) no-repeat;
-  background-size: cover;
+  background-size: cover; 
 }
 
 .projects3 {
   display: flex;
   align-items: end;
-  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
+   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 84.18%);
   background: url(img/project4.png) no-repeat;
-  background-size: cover;
+  background-size: cover; 
 }
 
 .fix h2 {
@@ -941,9 +941,9 @@ form textarea {
   .projects {
     display: flex;
     align-items: end;
-    background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
-    background: url(img/project4.png) no-repeat;
-    background-size: cover;
+    /* background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+    background: url(img/section2.png) no-repeat;
+    background-size: cover; */
     border: none;
     height: auto;
   }
@@ -953,12 +953,12 @@ form textarea {
   }
 
   .projects1 {
-    background: url(img/project4.png) no-repeat;
+    background: url(img/project1.png) no-repeat;
     background-size: cover;
   }
 
   .projects2 {
-    background: url(img/project4.png) no-repeat;
+    background: url(img/project3.png) no-repeat;
     background-size: cover;
     height: auto;
   }
@@ -967,7 +967,7 @@ form textarea {
     background: url(img/project4.png) no-repeat;
     background-size: cover;
     height: auto;
-  }
+  } 
 
   .fix h2 {
     position: relative;
@@ -1218,10 +1218,10 @@ form textarea {
 }
 
 @media only screen and (min-width: 922px) {
-  .show1,
+  /* .show1,
   .hide {
     display: none;
-  }
+  } */
 
 /*  pop up start */
 
