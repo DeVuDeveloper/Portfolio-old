@@ -356,7 +356,8 @@
   grid-template-columns: 33% 33% 33%;
   gap: 24px 16px;
   align-items: end;
-  margin: 024px 143px 0 143px;
+  margin:  24px 143px 0 143px; 
+  padding: 0;
 }
 
 .media {
@@ -370,7 +371,12 @@
   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.projects:first-child {
   border: 2px solid #000;
+  margin: 0;
+  padding:0;
 }
 
 .fix2 h2 {
@@ -723,10 +729,6 @@ form textarea {
     background-position: 100% 100%;
   }
 
-  .pop-hide1-h2 { 
-    display: none; 
-  }
-
   .me h2 {
     font-size: 18px;
     margin: 26px 0;
@@ -935,17 +937,19 @@ form textarea {
     padding: 0;
   }
 
-  .projects:first-child h2 {
+   .projects:first-child h2 {
     display: none;
+  } 
+
+  .projects:first-child  .framework-container {
+    margin-right: 102px;
   }
 
   .media {
     height: 386px;
   }
 
-  .show {
-    display: none;
-  }
+ 
 
   .fixx {
     margin-left: 16px;
@@ -974,7 +978,6 @@ form textarea {
   .framework-container {
     display: flex;
     align-items: center;
-    padding-left: 16px;
     margin-top: 20px;
   }
 
@@ -995,18 +998,6 @@ form textarea {
     font-family: 'Inter', sans-serif;
     font-size: 15px;
     color: #fff;
-  }
-
-  .big-button {
-    display: flex;
-    align-items: center;
-    position: relative;
-    height: 58px;
-    background: #f55800;
-    padding: 0;
-    margin: auto;
-    transition: all 0.6s ease-out;
-    width: 100%;
   }
 
   .or-button {
@@ -1165,12 +1156,6 @@ form textarea {
 }
 
 @media only screen and (min-width: 922px) {
-
-  .show1,
-  .hide {
-    display: none;
-  }
-
   /*  pop up start */
 
   .pop-up {
@@ -1179,10 +1164,6 @@ form textarea {
     right: 142px;
     left: 142px;
     height: 631px;
-  }
-
-  .pop-hide-h2 {
-    display: none;
   }
 
   .pop-img {
