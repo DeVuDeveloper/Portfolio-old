@@ -7,7 +7,7 @@ const myProjects = [
     img: 'img/section2.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
-    source: 'https://github.com/'
+    source: 'https://github.com/',
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const myProjects = [
     img: 'img/project1.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
-    source: 'https://github.com/'
+    source: 'https://github.com/',
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const myProjects = [
     img: 'img/project2.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/)',
-    source: 'https://github.com/'
+    source: 'https://github.com/',
   },
   {
     id: 4,
@@ -36,7 +36,7 @@ const myProjects = [
     img: 'img/project3.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/)',
-    source: 'https://github.com/'
+    source: 'https://github.com/',
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const myProjects = [
     img: 'img/project4.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
-    source: 'https://github.com/'
+    source: 'https://github.com/',
   },
   {
     id: 6,
@@ -56,7 +56,7 @@ const myProjects = [
     img: 'img/project2.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
-    source: 'https://github.com/'
+    source: 'https://github.com/',
   },
   {
     id: 7,
@@ -66,12 +66,12 @@ const myProjects = [
     img: 'img/project3.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
-    source: 'https://github.com/'
+    source: 'https://github.com/',
   }
-]
+];
 
-const projectSections = document.querySelector('.projects-row')
-const firstProject = document.querySelector('.container')
+const projectSections = document.querySelector('.projects-row');
+const firstProject = document.querySelector('.container');
 
 firstProject.innerHTML = `<div class="title">
 <h2 class="creta">My recent works </h2>
@@ -111,10 +111,10 @@ firstProject.innerHTML = `<div class="title">
         </ul>
     </div>
 </div>
-</div>`
+</div>`;
 
-for (let i = 1; i < myProjects.length; i++) {
-  const project = myProjects[i]
+for (let i = 1; i < myProjects.length; i+=1) {
+  const project = myProjects[i];
 
   projectSections.innerHTML += `
   
@@ -145,19 +145,18 @@ for (let i = 1; i < myProjects.length; i++) {
    </div>
    </div>
  
-`
+`;
 }
 
-const openPop = document.querySelectorAll('.open-pop')
+const openPop = document.querySelectorAll('.open-pop');
 
-const popUp = document.querySelector('.pop-up')
+const popUp = document.querySelector('.pop-up');
 
-openPop.forEach(element => {
+openPop.forEach((element) => {
   element.addEventListener('click', () => {
-    const id = Number(element.id)
-    console.log(id)
-    for (let i = 0; i < myProjects.length; i++) {
-      const project = myProjects[i]
+    const id = Number(element.id);
+    for (let i = 0; i < myProjects.length; i+=1) {
+      const project = myProjects[i];
       if (id === project.id) {
         popUp.innerHTML = `
            
@@ -199,16 +198,24 @@ openPop.forEach(element => {
                             </div>
                 </div>
             </div>`
-      }
-    }
+      };
+    };
 
-    popUp.classList.add('pop')
+    popUp.classList.add('pop');
 
-    const closePop = document.querySelector('.pop-x')
+    const closePop = document.querySelector('.pop-x');
     closePop.addEventListener('click', () => {
+
+      popUp.classList.remove('pop');
+    
+    });
+  });
+});
+
       popUp.classList.remove('pop')
       console.log('closePop:', closePop)
     })
   })
 })
+
 
