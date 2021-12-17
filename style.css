@@ -363,14 +363,14 @@
   height: 100%;
 }
 
- .projects {
-   display: flex;
-   flex-direction: column;
-   justify-content: end;
-   background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
-   background-repeat: no-repeat;
-   background-size: cover;
-   border: 2px solid #000;
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid #000;
 }
 
 .fix2 h2 {
@@ -436,9 +436,9 @@
   font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-} 
+}
 
-  /* end of second section */
+/* end of second section */
 
 #end {
   background: #000;
@@ -723,11 +723,9 @@ form textarea {
     background-position: 100% 100%;
   }
 
-
-  .pop-hide1-h2 {
-    display: none;
+  .pop-hide1-h2 { 
+    display: none; 
   }
-
 
   .me h2 {
     font-size: 18px;
@@ -1168,7 +1166,6 @@ form textarea {
 
 @media only screen and (min-width: 922px) {
 
-
   .show1,
   .hide {
     display: none;
@@ -1249,7 +1246,7 @@ form textarea {
   }
 
   .projects:first-child h2 {
-     display: none;
+    display: none;
   }
 }
 
