@@ -67,7 +67,7 @@ const myProjects = [
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Responsive-Web-Design/',
     source: 'https://github.com/',
-  }
+  },
 ];
 
 const projectSections = document.querySelector('.projects-row');
@@ -113,7 +113,7 @@ firstProject.innerHTML = `<div class="title">
 </div>
 </div>`;
 
-for (let i = 1; i < myProjects.length; i+=1) {
+for (let i = 1; i < myProjects.length; i += 1) {
   const project = myProjects[i];
 
   projectSections.innerHTML += `
@@ -155,7 +155,7 @@ const popUp = document.querySelector('.pop-up');
 openPop.forEach((element) => {
   element.addEventListener('click', () => {
     const id = Number(element.id);
-    for (let i = 0; i < myProjects.length; i+=1) {
+    for (let i = 0; i < myProjects.length; i += 1) {
       const project = myProjects[i];
       if (id === project.id) {
         popUp.innerHTML = `
@@ -197,18 +197,16 @@ openPop.forEach((element) => {
                           
                             </div>
                 </div>
-            </div>`
-      };
-    };
+            </div>`;
+      }
+    }
 
     popUp.classList.add('pop');
 
     const closePop = document.querySelector('.pop-x');
     closePop.addEventListener('click', () => {
-      popUp.classList.remove('pop');
+    popUp.classList.remove('pop');
     
     });
   });
 });
-
-
