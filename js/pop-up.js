@@ -178,7 +178,7 @@ openPop.forEach((element) => {
                 <a href="https://rubyonrails.org/">${project.technologies[2]}</a>
             </li>
         </ul>
-            <div class="pop-flex1 p-0 m-0">
+            <div class="pop-flex1 p-1 m-0">
                 <img class="img-fluid pop-img" src="${project.img}" alt="">
                 <div class="pop-info">
                    <div>
