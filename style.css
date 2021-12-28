@@ -991,12 +991,12 @@ form textarea {
 
   .projects:first-child h2 {
     visibility: hidden;
- }
+  }
 
   .or-button {
-  margin: auto;
-  list-style-type: none;
-}
+    margin: auto;
+    list-style-type: none;
+  }
 
   /* end of second section */
 
