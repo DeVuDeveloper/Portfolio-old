@@ -989,14 +989,14 @@ form textarea {
     color: #fff;
   }
 
-  .or-button {
-    margin: auto;
-    list-style-type: none;
-  }
-
   .projects:first-child h2 {
     visibility: hidden;
  }
+
+  .or-button {
+  margin: auto;
+  list-style-type: none;
+}
 
   /* end of second section */
 
