@@ -71,7 +71,7 @@ const myProjects = [
 ];
 
 const projectSections = document.querySelector('.projects-row');
-const firstProject = document.querySelector('.container');
+const firstProject = document.querySelector('.wrapper-first');
 
 firstProject.innerHTML = `<div class="title">
 <h2 class="creta">My recent works </h2>
