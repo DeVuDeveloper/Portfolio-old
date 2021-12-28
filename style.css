@@ -8,9 +8,9 @@
 }
 
 html,
-body{
-width:100%;
-overflow-x:hidden;
+body {
+  width: 100%;
+  overflow-x :hidden;
 }
 
 menu {
@@ -671,7 +671,6 @@ form textarea {
   margin-bottom: 26px;
   list-style: none;
   color: #1c1a19;
-  margin: 0;
   padding: 0;
 }
 
@@ -869,10 +868,6 @@ form textarea {
     padding-left: 0;
   }
 
-  .ul-fix {
-    
-  }
-
   .buttons {
     margin-right: 5px;
   }
@@ -890,8 +885,8 @@ form textarea {
     transition: all 0.6s ease-out;
     width: 129px;
     height: 48px;
-    margin-top: 20px;;
-    }
+    margin-top: 20px;
+  }
 
   .button a {
     text-decoration: none;
@@ -920,8 +915,8 @@ form textarea {
     height: auto;
   }
 
-  .projects:first-child h2 {
-     visibility: hidden;
+  .about h2 {
+    font-size: 72px;
   }
 
   .fix h2 {
@@ -931,16 +926,12 @@ form textarea {
     color: #fff;
   }
 
-  .about h2 {
-    font-size: 72px;
-  }
-
   .collums h2 {
     font-size: 2.2px;
   }
 
   .ttl h2 {
-    font-size: 32px;
+    font-size: 22px;
     margin: 0;
     padding: 0;
   }
@@ -1002,6 +993,10 @@ form textarea {
     margin: auto;
     list-style-type: none;
   }
+
+  .projects:first-child h2 {
+    visibility: hidden;
+ }
 
   /* end of second section */
 
@@ -1109,10 +1104,6 @@ form textarea {
     text-align: center;
     padding: 0 50px 0 16px;
     margin: 80px 0 50px 0;
-  }
-
-  .ttl h2 {
-    font-size: 22px;
   }
 
   #name {
