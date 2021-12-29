@@ -11,11 +11,11 @@ const myProjects = [
   },
   {
     id: 2,
-    title: 'Professional Art Printing Data More',
-    description: '',
-    img: 'img/project1.png',
+    title: 'Web Summit 2020 Lisbon',
+    description: 'Web Summit 2022 will feature talks from tech experts, cultural icons and global policymakers.',
+    img: 'img/project1.jpg',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Responsive-Web-Design/',
+    live: 'https://vudej.github.io/Web-Summit-2022-Lisbon/',
     source: 'https://github.com/',
   },
   {
@@ -25,7 +25,7 @@ const myProjects = [
       'A healthcare dashboard is a modern analytics tool to monitor healthcare KPIs in a dynamic and interactive way.',
     img: 'img/project2.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Responsive-Web-Design/)',
+    live: 'https://vudej.github.io/Portfolio/)',
     source: 'https://github.com/',
   },
   {
@@ -35,7 +35,7 @@ const myProjects = [
       'An online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created.',
     img: 'img/project3.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Responsive-Web-Design/)',
+    live: 'https://github.com/VuDej/Portfolio)',
     source: 'https://github.com/',
   },
   {
@@ -45,27 +45,27 @@ const myProjects = [
       'Most popular paper typeSpecially coated for clarity and longevityFingerprint resistant with a slight sheen',
     img: 'img/project4.png',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Responsive-Web-Design/',
+    live: 'https://vudej.github.io/Portfolio/',
     source: 'https://github.com/',
   },
   {
     id: 6,
-    title: 'Data Dashboard Healthcare',
+    title: 'Drum Machine',
     description:
-      'A healthcare dashboard is a modern analytics tool to monitor healthcare KPIs in a dynamic and interactive way.',
-    img: 'img/project2.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Responsive-Web-Design/',
+      ' A simple Drum Machine with Create-react-app. Sample, Example , React.',
+    img: 'img/project6.jpg',
+    technologies: ['css', 'html', 'react', 'ruby'],
+    live: 'https://vudej.github.io/Drum-Machine/',
     source: 'https://github.com/',
   },
   {
     id: 7,
-    title: 'Website Portfolio',
+    title: 'Pomodoro Timer',
     description:
-      'An online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created.',
-    img: 'img/project3.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Responsive-Web-Design/',
+      'A simple pomodoro timer in material tomato design Made this into a desktop and mobile app for my own use.',
+    img: 'img/project7.png',
+    technologies: ['css', 'html', 'react', 'ruby'],
+    live: 'https://vudej.github.io/Time-Managment/',
     source: 'https://github.com/',
   },
 ];
@@ -149,7 +149,7 @@ for (let i = 1; i < myProjects.length; i += 1) {
 }
 
 const openPop = document.querySelectorAll('.open-pop');
-
+const blur = document.getElementById('blur');
 const popUp = document.querySelector('.pop-up');
 
 openPop.forEach((element) => {
@@ -202,10 +202,13 @@ openPop.forEach((element) => {
     }
 
     popUp.classList.add('pop');
-
+    
+    blur.classList.add('active');
     const closePop = document.querySelector('.pop-x');
     closePop.addEventListener('click', () => {
       popUp.classList.remove('pop');
+      blur.classList.remove('active');
+     
     });
   });
 });
