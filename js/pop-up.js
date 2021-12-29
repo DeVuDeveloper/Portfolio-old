@@ -121,12 +121,9 @@ for (let i = 1; i < myProjects.length; i += 1) {
   
 <div class="projects media" style="background: url(${project.img}); background-repeat: no-repeat;  background-size: cover; ">
  
+    <div id='${project.id}' class='fix')>
    
-   <div id='${project.id}' class='fix fix2')>
-   
-  
-       
-     <h2 class="white creta  fix show1">${project.title}</h2>
+    <h2 class="white creta show1">${project.title}</h2>
       <h5 class='white inter hide'>${project.description}</h5>
      
      <ul class='framework-container hide'>
@@ -202,13 +199,12 @@ openPop.forEach((element) => {
     }
 
     popUp.classList.add('pop');
-    
+
     blur.classList.add('active');
     const closePop = document.querySelector('.pop-x');
     closePop.addEventListener('click', () => {
       popUp.classList.remove('pop');
       blur.classList.remove('active');
-     
     });
   });
 });

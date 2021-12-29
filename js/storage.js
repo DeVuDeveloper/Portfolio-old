@@ -1,5 +1,5 @@
 const contactForm = document.querySelector('#form');
-const { name, email, comments} = contactForm.elements;
+const { name, email, comments } = contactForm.elements;
 
 contactForm.addEventListener('change', () => {
   const obj = {};
