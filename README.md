@@ -10,6 +10,8 @@ Live preview [here](https://vudej.github.io/Portfolio/).
 * [Projects](#projects)
 * [About me](#about)
 * [Contact](#contact)
+* [Hamburger menu](#mobile)
+* [Pop-up window for projects](#projects)
 
 ## General info
 This project is my first Portfolio as web developer.
