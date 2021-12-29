@@ -2,7 +2,10 @@
 
 Live preview [here](https://vudej.github.io/Portfolio/). 
 
-## Table of contents
+## Screenshots
+![Example screenshot](img/screenshot.png)
+
+## Contents
 * [Homepage](#homepage)
 * [Projects](#projects)
 * [About me](#about)
@@ -27,7 +30,6 @@ $ cd Desktop
 $ git clone https://github.com/VuDej/Portfolio.git
 
 ```
-
 ## Author
 
 👤 **Dejan Vujovic**
@@ -55,5 +57,8 @@ Give a ⭐️ if you like this project!
 ## 📝 License
 
 This project is [MIT](LICENSE) licensed.
+
+## Contact
+Created by [@VuDej](https://github.com/VuDej) - feel free to contact me!
 
 
