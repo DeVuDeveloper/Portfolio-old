@@ -1,25 +1,32 @@
-##Responsive Porfolio
+# Portfolio
 
- Responsive Portfolio Page with media query in range 992-1100px.
+Live preview [here](https://vudej.github.io/Portfolio/). 
 
-- Section with name-navbar.
-- Section with projects.
-- Section About.
--Section Contact
+## Table of contents
+* [Homepage](#homepage)
+* [Projects](#projects)
+* [About me](#about)
+* [Contact](#contact)
 
-![desktop portfolio](https://user-images.githubusercontent.com/93735137/144689631-a9b69314-de02-4656-99c5-151407dfe377.PNG)
+## General info
+This project is my first Portfolio as web developer.
+	
+## Technologies
+Project is created with:
+* HTML
+* CSS
+* Bootstrap
+* Javascript
 
+	
+## Setup
+To run this project, install it locally using:
 
+```
+$ cd Desktop
+$ git clone https://github.com/VuDej/Portfolio.git
 
-## Built With
-
-- HTML
-- CSS
-
-## Getting Started
--
-- git clone https://github.com/VuDej/Portofolio-Projects.git
-- git push -u origin main
+```
 
 ## Author
 
@@ -49,4 +56,4 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](LICENSE) licensed.
 
-Live preview [here](https://vudej.github.io/Portfolio/).
+
