@@ -24,12 +24,9 @@ Project is created with:
 	
 ## Setup
 To run this project, install it locally using:
-
-```
 $ cd Desktop
 $ git clone https://github.com/VuDej/Portfolio.git
 
-```
 ## Author
 
 👤 **Dejan Vujovic**
