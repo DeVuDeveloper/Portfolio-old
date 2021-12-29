@@ -15,7 +15,7 @@ form.addEventListener('submit', (element) => {
   }
 });
 
-const textArea = document.getElementById('user-comments');
+const textArea = document.getElementById('comments');
 const lettersCounter = document.getElementById('counter');
 
 textArea.addEventListener('input', (event) => {
