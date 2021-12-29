@@ -1200,8 +1200,7 @@ form textarea {
 }
 
 @media only screen and (min-width: 922px) {
-
-  .pop-up {
+ .pop-up {
     bottom: 100px;
     top: 112px;
     right: 142px;
