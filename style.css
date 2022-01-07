@@ -15,7 +15,7 @@ body {
 
 #blur.active {
   filter: blur(5px);
- 
+  position: fixed;
 }
 
 menu {
