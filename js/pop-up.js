@@ -16,27 +16,27 @@ const myProjects = [
     img: 'img/project1.jpg',
     technologies: ['css', 'html', 'bootstrap', 'ruby'],
     live: 'https://vudej.github.io/Web-Summit-2022-Lisbon/',
-    source: 'https://github.com/',
+    source: 'https://github.com/VuDej/Web-Summit-2022-Lisbon',
   },
   {
     id: 3,
-    title: 'Data Dashboard Healthcare',
+    title: 'Awesome Books',
     description:
-      'A healthcare dashboard is a modern analytics tool to monitor healthcare KPIs in a dynamic and interactive way.',
+      'Awesome Books is single-page, where you can add books to list and delete books from list.',
     img: 'img/project2.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Portfolio/)',
-    source: 'https://github.com/',
+    technologies: ['css', 'html', 'javascript', 'ruby'],
+    live: 'https://vudej.github.io/Awesome-Books-ES6/)',
+    source: 'https://github.com/VuDej/Awesome-Books-ES6',
   },
   {
     id: 4,
-    title: 'Website Portfolio',
+    title: 'To Do List',
     description:
-      'An online portfolio (may also be called a digital portfolio or e-portfolio) is an online representation of work you have created.',
+      'To do list is awesome tool for setting your smart goals and track progress with completed tasks or not.',
     img: 'img/project3.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://github.com/VuDej/Portfolio)',
-    source: 'https://github.com/',
+    technologies: ['css', 'html', 'javascript', 'ruby'],
+    live: 'https://vudej.github.io/To-Do-list/dist/',
+    source: 'https://github.com/VuDej/To-Do-list',
   },
   {
     id: 5,
@@ -119,7 +119,7 @@ for (let i = 1; i < myProjects.length; i += 1) {
   projectSections.innerHTML += `
   
   
-<div class="projects media" style="background: url(${project.img}); background-repeat: no-repeat;  background-size: cover; ">
+<div class="projects media" style="background-image: url(${project.img}); background-repeat: no-repeat;  background-size: cover;">
  
     <div id='${project.id}' class='fix')>
    
