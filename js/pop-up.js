@@ -119,7 +119,7 @@ for (let i = 1; i < myProjects.length; i += 1) {
   projectSections.innerHTML += `
   
   
-<div class="projects media" style="background-image: url(${project.img}); background-repeat: no-repeat;  background-size: cover;">
+<div class="projects media" style="background: linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%, rgba(38, 38, 38, 0.9) 61.94%), url(${project.img}); background-repeat: no-repeat; background-size: cover;">
  
     <div id='${project.id}' class='fix')>
    
