@@ -13,8 +13,12 @@ Live preview [here](https://vudej.github.io/Portfolio/).
 * [Hamburger menu](#mobile)
 * [Pop-up window for projects](#projects)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## General info
 This project is my first Portfolio as web developer.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 	
 ## Technologies
 Project is created with:
@@ -23,11 +27,12 @@ Project is created with:
 * Bootstrap
 * Javascript
 
+<p align="right">(<a href="#top">back to top</a>)</p>
 	
 ## Setup
 To run this project, install it locally using:
-$ cd Desktop
-$ git clone https://github.com/VuDej/Portfolio.git
+* cd Desktop
+* git clone https://github.com/VuDej/Portfolio.git
 
 ## Author
 
@@ -37,6 +42,8 @@ $ git clone https://github.com/VuDej/Portfolio.git
 - Twitter: [@DejanVuj](https://twitter.com/DejanVuj)
 - LinkdIn : [@Dejan-Vujovic](https://www.linkedin.com/in/dejan-vujovic-5a0672225/)
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 
 ## 🤝 Contributing
 
@@ -44,20 +51,30 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/VuDej/Responsive-Web-Design/issues/6).
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Acknowledgments
 
 - A special thanks to Microverse for inspiring this project. We are indebted to you all at Microverse
 - A special thanks goes to all our peers at Microverse for being there for us.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## 📝 License
 
 This project is [MIT](LICENSE) licensed.
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Contact
 Created by [@VuDej](https://github.com/VuDej) - feel free to contact me!
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 
