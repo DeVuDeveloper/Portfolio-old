@@ -40,13 +40,13 @@ const myProjects = [
   },
   {
     id: 5,
-    title: 'Professional Art Printing Data More',
+    title: 'Budget app',
     description:
-      'Most popular paper typeSpecially coated for clarity and longevityFingerprint resistant with a slight sheen',
+      'Application where you can track your transactions',
     img: 'img/project4.png',
-    technologies: ['css', 'html', 'bootstrap', 'ruby'],
-    live: 'https://vudej.github.io/Portfolio/',
-    source: 'https://github.com/',
+    technologies: ['ruby', 'rails', 'postgres', 'rcss'],
+    live: 'https://dejab-v-budget.herokuapp.com/',
+    source: 'https://github.com/VuDej/budget-app-rails',
   },
   {
     id: 6,
